@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name" translatable="false">KCET Notes and Question Papers</string>
+
+    <!--   navigation drawer -->
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <string name="nav_home">Home Page</string>
+    <string name="nav_tg">Join our Telegram Group</string>
+    <string name="nav_tg2">Join our Telegram Group 2</string>
+    <string name="nav_2puc">Get Second PUC Notes App on Play Store</string>
+    <string name="nav_share">Share App</string>
+    <string name="nav_more">More Apps</string>
+    <string name="nav_dark">Switch to Dark Mode</string>
+    <string name="nav_delete">Delete all Downloaded Files</string>
+    <string name="nav_privacy">Privacy Policy</string>
+    <string name="nav_exit">Exit App</string>
+    <string name="nav_1puc">Get First PUC Notes App on Play Store</string>
+    <string name="nav_pucqp">Get PUC Question Papers App on Play Store</string>
+    <string name="nav_kan">Switch to Kannada Language</string>
+<string name="nav_contact">Contact Us/Suggestions</string>
+
+    <!--   toast messages -->
+    <string name="qpdf">You are already viewing the Question Paper</string>
+    <string name="apdf">You are already viewing the Key Answers</string>
+    <string name="waitt">Please wait until the download is complete</string>
+    <string name="noNet">Please enable Internet to download the content</string>
+    <string name="noNetRetry">Please enable Internet to download the content and tap \'RETRY\' Button</string>
+    <string name="errr">Error Occurred, Please report in our Telegram Group</string>
+    <string name="errdwd">Failed to load the content. Would you like to download it again?</string>
+    <string name="shareApp" translatable="false">Check out KCET NOTES AND QUESTION PAPERS App on PlayStore! https://play.google.com/store/apps/details?id=com.kea.pyp&amp;utm_source=shareApp</string>
+    <string name="noFiles">There are no downloaded files available to delete</string>
+    <string name="dwding">Downloading&#8230; Please Wait</string>
+    <string name="dwdComp">Download Completed</string>
+    <string name="lanShortcutToast">Tap the \'ADD\' button to create a shortcut on the home screen</string>
+    <string name="exitToast" translatable="false">All the Best for your Exams!</string>
+
+    <string name="alertTitle">Confirm Deletion</string>
+    <string name="alertMsg">Delete all downloaded files?</string>
+    <string name="alertLanMsg">Delete downloaded files?</string>
+    <string name="alertPositive">Cancel</string>
+    <string name="alertNegative">Delete</string>
+    <string name="alertCancel">Delete operation cancelled</string>
+    <string name="alertDelete">Deleted Successfully</string>
+    <string name="alertRestore">Restored Successfully</string>
+
+    <!--   buttons -->
+    <string name="tab_qp">Question Papers</string>
+    <string name="tab_up">KCET\nUpdates</string>
+    <string name="tab_notes">Notes</string>
+    <string name="tab_cutoff">Cutoff</string>
+
+    <string name="KanNote">NOTE: Kannada Language Exam is only for Horanadu and Gadinadu Kannadiga Candidates (Eligibility Clauses c and d).\nMinimum Passing Marks are 12 out of 50.</string>
+    <string name="prcNote">NOTE: Practical Exam is only applicable to candidates who are eligible to claim the Agriculturist Quota.\nMinimum passing marks are 100 out of 200(50%).</string>
+
+    <string name="btn_qp">Question Paper</string>
+    <string name="btn_ans">Key Answers</string>
+    <string name="btn_spl">Split Mode</string>
+
+    <string name="lan_shortcut">Create Shortcut</string>
+    <string name="lan_delete">Delete Downloaded Files</string>
+
+    <string name="snack_retry">RETRY</string>
+    <string name="snack_undo">UNDO</string>
+    <string name="snack_yes">YES</string>
+
+    <string name="head_sol">Question Paper with Solutions</string>
+    <string name="head_notes">Revision Notes</string>
+
+    <!--   recycler items -->
+
+    <string name="phy">Physics</string>
+    <string name="che">Chemistry</string>
+    <string name="bio">Biology</string>
+    <string name="mat">Maths</string>
+    <string name="kan">Kannada</string>
+    <string name="vetno">Agri/Veterinary Practical</string>
+
+    <string name="mbbs">MBBS</string>
+    <string name="engg">Engineering</string>
+    <string name="vet">Veterinary</string>
+    <string name="agri">Agriculture</string>
+    <string name="bds">Dental</string>
+    <string name="ayu">Ayush</string>
+    <string name="phar">Pharmacy</string>
+    <string name="arch">Architecture</string>
+    <string name="bnys">BNYS</string>
+    <string name="nurs">Nursing</string>
+    <string name="ahs">B. Sc - AHS</string>
+
+    <string name="up_kcet">KCET 2025 Update</string>
+    <string name="up_prac">KCET 2025 Practical Exam Update</string>
+    <string name="up_info">KCET 2025 Information Bulletin</string>
+    <string name="up_rank">KCET Rank Determination Criteria</string>
+
+    <string name="up_info_pdf">info.pdf</string>
+    <string name="up_kcet_pdf">kcet.pdf</string>
+    <string name="up_prac_pdf">prac.pdf</string>
+    <string name="up_rank_pdf">rank.pdf</string>
+
+    <!--   donation -->
+
+    <string name="thankk">THANK YOU</string>
+    <string name="donationn">It takes days to collect the necessary resources and days to create an app. Your small donation (even ₹10) helps us to cover server costs. Please consider donating any amount you wish if this app has helped you.\nThanks in advance for your support!"</string>
+
+
+
+<string name="menu_go_to_first_page">Go to First Page</string>
+    <string name="menu_go_to_last_page">Go to Last Page</string>
+    <string name="menu_jump_to_page">Go to Page&#8230;</string>
+    <string name="menu_toggle_auto_scroll">Auto Scroll</string>
+    <string name="menu_toggle_slideshow_start">Start Slideshow</string>
+    <string name="menu_toggle_slideshow_stop">Stop Slideshow</string>
+    <string name="menu_toggle_night_mode_to_light">Switch to Light Mode</string>
+    <string name="menu_toggle_night_mode_to_dark">Switch to Dark Mode</string>
+    <string name="menu_toggle_fullscreen">Full Screen Mode</string>
+    <string name="menu_share_screenshot">Share Screenshot</string>
+    <string name="menu_zoom_to">Zoom to</string>
+    <string name="menu_toggle_rotation_lock_lock">Lock Screen Rotation</string>
+    <string name="menu_toggle_rotation_lock_unlock">Unlock Screen Rotation</string>
+    <string name="menu_rotate_clockwise">Rotate Clockwise</string>
+    <string name="menu_rotate_anticlockwise">Rotate Anti-Clockwise</string>
+    <string name="menu_toggle_volume_buttons_enable">Enable Volume Key Scroll</string>
+    <string name="menu_toggle_volume_buttons_disable">Disable Volume Key Scroll</string>
+    <string name="menu_swipe_horizontal_to_vertical">Swipe Vertically</string>
+    <string name="menu_swipe_horizontal_to_horizontal">Swipe Horizontally</string>
+    <string name="menu_toggle_spacing_add">Add Spacing</string>
+    <string name="menu_toggle_spacing_remove">Remove Spacing</string>
+    <string name="menu_page_fling">Fast Page Swipe</string>
+    <string name="menu_page_snap">Page Alignment</string>
+    <string name="menu_exit">Exit App</string>
+
+    <string name="toast_auto_scroll_layout_closed">Auto Scroll Layout Closed</string>
+    <string name="toast_rotated_clockwise">Rotated Clockwise</string>
+    <string name="toast_rotated_anticlockwise">Rotated Anti-Clockwise</string>
+    <string name="toast_locked_screen_rotation">Locked Screen Rotation</string>
+    <string name="toast_unlocked_screen_rotation">Unlocked Screen Rotation</string>
+    <string name="toast_volume_button_scroll_enabled_state">Volume Button Scroll %1$s</string>
+    <string name="state_enabled">Enabled</string>
+    <string name="state_disabled">Disabled</string>
+    <string name="toast_already_on_last_page">Already on the Last Page</string>
+    <string name="toast_navigated_to_last_page">Navigated to Last Page</string>
+    <string name="toast_already_on_first_page">Already on the First Page</string>
+    <string name="toast_navigated_to_first_page">Navigated to First Page</string>
+    <string name="toast_swipe_direction_enabled">%1$s Swipe Enabled</string>
+    <string name="direction_horizontal">Horizontal</string>
+    <string name="direction_vertical">Vertical</string>
+    <string name="toast_slideshow_stopped">Slideshow Stopped</string>
+    <string name="toast_added_spacing">Added Spacing</string>
+    <string name="toast_removed_spacing">Removed Spacing</string>
+    <string name="toast_page_number_field_empty">Page Number field cannot be empty</string>
+    <string name="toast_already_viewing_page">You are already viewing Page %1$d!</string>
+    <string name="toast_navigated_to_page_number">Navigated to Page %1$d</string>
+    <string name="toast_page_number_must_be_between">Page Number must be between 1 and %1$d</string>
+    <string name="toast_please_enter_valid_number">Please enter a valid number</string>
+    <string name="toast_zoom_level_field_empty">Zoom Level field cannot be empty</string>
+    <string name="toast_zoom_level_already_at">Zoom Level is already at %1$d%%!</string>
+    <string name="toast_zoomed_to_percent">Zoomed to %1$d%%</string>
+    <string name="toast_zoom_level_must_be_between">Zoom Level must be between 50 and 1000%</string>
+    <string name="toast_slideshow_started">Slideshow Started</string>
+    <string name="toast_duration_must_be_greater_than_zero">Duration must be greater than 0</string>
+    <string name="toast_reached_last_page">Reached Last Page</string>
+    <string name="toast_page_swipe_enabled">Fast Page Swipe Enabled</string>
+    <string name="toast_page_swipe_disabled">Fast Page Swipe Disabled</string>
+    <string name="toast_page_alignment_enabled">Page Alignment Enabled</string>
+    <string name="toast_page_alignment_disabled">Page Alignment Disabled</string>
+    <string name="toast_direction_reversed">Direction Reversed</string>
+<string name="toast_preparing_screenshot">Preparing Screenshot&#8230;</string>
+
+    <string name="dialog_title_enter_page_number">Enter Page Number:</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_title_enter_zoom_level">Enter Zoom Level (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">Enter Slideshow Duration (seconds)</string>
+    <string name="dialog_button_start">Start</string>
+    <string name="dialog_title_enable_fast_page_swipe">Enable Fast Page Swipe?</string>
+    <string name="dialog_button_enable">Enable</string>
+    <string name="dialog_button_disable">Disable</string>
+    <string name="dialog_title_enable_page_alignment">Enable Page Alignment?</string>
+
+    <string name="dialog_message_fast_page_swipe">Fast Page Swipe lets you flip pages quickly by swiping %1$s, like turning pages in a book. When turned on, one swipe takes you to the next or previous page. This makes moving through pages faster but might affect other swiping actions.\nDo you want to enable Fast Page Swipe?</string>
+    <string name="dialog_message_page_alignment">Page Alignment makes sure each page is fully centered after you swipe %1$s. When turned on, the page will automatically settle in the middle when you stop swiping. This makes reading easier but might feel a bit less smooth.\nDo you want to enable Page Alignment?</string>
+
+    <string name="direction_horizontally">horizontally</string>
+    <string name="direction_up_or_down">up or down</string>
+
+
+</resources>

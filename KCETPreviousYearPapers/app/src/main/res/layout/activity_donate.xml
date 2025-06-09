@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DonateActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/head"
+            android:fontFamily="@font/abcd"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="#FFEB3B"
+            android:textColor="@color/black"
+            android:text="@string/thankk"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/note"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+            android:padding="3dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/head">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/abcd"
+                    android:textSize="16sp"
+                    android:text="@string/donationn" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/idlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note"
+            android:background="#E2CECE"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abcd"
+                android:textColor="@color/black"
+                android:text="UPI ID : appinnoventure@airtel"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/upiBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E2CECE"
+                android:src="@drawable/baseline_content_copy_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/appLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idlayout"
+            android:background="#E2CECE"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abcd"
+                android:text="Open in UPI App"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/upiApp"
+                android:backgroundTint="#E2CECE"
+                android:src="@drawable/baseline_open_in_new_24" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/appLayout"/>
+
+    </RelativeLayout>
+</layout>

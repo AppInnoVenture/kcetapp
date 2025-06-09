@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/lan_shortcut"
+        android:title="@string/lan_shortcut"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/lan_share"
+        android:title="@string/nav_share"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/lan_delete"
+        android:title="@string/lan_delete"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/lan_exit"
+        android:title="@string/nav_exit"
+        app:showAsAction="never"/>
+
+</menu>

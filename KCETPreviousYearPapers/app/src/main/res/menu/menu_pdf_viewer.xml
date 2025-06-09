@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_navigation">
+        <item
+            android:id="@+id/menu_go_to_first_page"
+            android:title="@string/menu_go_to_first_page" />
+        <item
+            android:id="@+id/menu_go_to_last_page"
+            android:title="@string/menu_go_to_last_page" />
+        <item
+            android:id="@+id/menu_jump_to_page"
+            android:title="@string/menu_jump_to_page" />
+        <item
+            android:id="@+id/menu_toggle_auto_scroll"
+            android:title="@string/menu_toggle_auto_scroll" />
+        <item
+            android:id="@+id/menu_toggle_slideshow"
+            android:title="" />
+    </group>
+
+    <item
+        android:id="@+id/menu_toggle_night_mode"
+        android:title="" />
+    <item
+        android:id="@+id/menu_toggle_fullscreen"
+        android:title="@string/menu_toggle_fullscreen" />
+    <item
+        android:id="@+id/menu_share_screenshot"
+        android:title="@string/menu_share_screenshot" />
+    <item
+        android:id="@+id/menu_zoom_to"
+        android:title="@string/menu_zoom_to" />
+    <item
+        android:id="@+id/menu_toggle_rotation_lock"
+        android:title="" />
+    <item
+        android:id="@+id/menu_rotate_clockwise"
+        android:title="@string/menu_rotate_clockwise" />
+    <item
+        android:id="@+id/menu_rotate_anticlockwise"
+        android:title="@string/menu_rotate_anticlockwise" />
+
+    <group android:id="@+id/group_interaction">
+        <item
+            android:id="@+id/menu_toggle_volume_buttons"
+            android:title="" />
+        <item
+            android:id="@+id/menu_swipe_horizontal"
+            android:title="" />
+        <item
+            android:id="@+id/menu_toggle_spacing"
+            android:title="" />
+        <item
+            android:id="@+id/menu_page_fling"
+            android:title="@string/menu_page_fling" />
+        <item
+            android:id="@+id/menu_page_snap"
+            android:title="@string/menu_page_snap" />
+    </group>
+
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit" />
+</menu>

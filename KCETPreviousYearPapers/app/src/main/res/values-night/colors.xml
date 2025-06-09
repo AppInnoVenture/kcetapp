@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purewhite">#000000</color>
+    <color name="pureblack">#FFFFFFFF</color>
+    <color name="descPdf">#D3D3D3</color>
+    <color name="viewcard">#252527</color>
+    <color name="textviewcard">#D3D3D3</color>
+    <color name="viewLan">#2C1D20</color>
+    <color name="textviewLan">#D3D3D3</color>
+    <color name="mainColor">#000000</color>
+    <color name="below">#252527</color>
+    <color name="bgColor">#000000</color>
+</resources>

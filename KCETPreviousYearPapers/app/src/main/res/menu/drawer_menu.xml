@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/nav_home"/>
+        <item
+            android:id="@+id/nav_telegram"
+            android:icon="@drawable/baseline_send_24"
+            android:title="@string/nav_tg"/>
+        <item
+            android:id="@+id/nav_telegram2"
+            android:icon="@drawable/baseline_send_24"
+            android:title="@string/nav_tg2"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/baseline_share_24"
+            android:title="@string/nav_share"/>
+        <item
+            android:id="@+id/nav_dark"
+            android:icon="@drawable/baseline_light_mode_24"
+            android:title="@string/nav_dark"/>
+        <item
+            android:id="@+id/nav_lang"
+            android:icon="@drawable/baseline_language_24"
+            android:title="@string/nav_kan"/>
+        <item
+            android:id="@+id/nav_1puc"
+            android:icon="@drawable/baseline_get_app_24"
+            android:title="@string/nav_1puc"/>
+        <item
+            android:id="@+id/puc"
+            android:icon="@drawable/baseline_get_app_24"
+            android:title="@string/nav_2puc"/>
+        <item
+            android:id="@+id/nav_pucqp"
+            android:icon="@drawable/baseline_get_app_24"
+            android:title="@string/nav_pucqp"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_donate"-->
+<!--            android:icon="@drawable/baseline_currency_rupee_24"-->
+<!--            android:title="Donate"/>-->
+        <item
+            android:id="@+id/nav_apps"
+            android:icon="@drawable/baseline_apps_24"
+            android:title="@string/nav_more"/>
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/baseline_email_24"
+            android:title="@string/nav_contact"/>
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/baseline_delete_24"
+            android:title="@string/nav_delete"/>
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/baseline_privacy_tip_24"
+            android:title="@string/nav_privacy"/>
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/baseline_exit_to_app_24"
+            android:title="@string/nav_exit"/>
+    </group>
+
+</menu>

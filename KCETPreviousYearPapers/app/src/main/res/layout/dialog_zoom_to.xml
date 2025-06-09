@@ -1,0 +1,46 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="currentZoom"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="25dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:boxBackgroundMode="none"
+            android:theme="@style/Theme.MaterialComponents">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_zoom_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="number"
+                android:singleLine="true"
+                android:text="@{currentZoom}"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@color/textviewLan" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/percentSymbol"
+            android:text="%"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/textviewLan"
+            android:theme="@style/Theme.MaterialComponents" />
+    </LinearLayout>
+
+</layout>

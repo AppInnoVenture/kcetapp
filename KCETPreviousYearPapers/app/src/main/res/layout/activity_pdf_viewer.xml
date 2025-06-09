@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/above"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purewhite"
+        tools:context=".PdfViewerActivity">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/descPdf"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/ToolbarTitlePdf"
+            android:minHeight="?attr/actionBarSize"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descPdf"
+            android:progressTint="#008000"
+            android:max="100"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/pdfContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/below"
+            android:layout_below="@id/progressBar">
+
+            <com.github.barteksc.pdfviewer.PDFView
+                android:id="@+id/pdfView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/purewhite"
+                android:alpha="0" />
+
+            <com.github.barteksc.pdfviewer.PDFView
+                android:id="@+id/anspdfView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/purewhite"
+                android:alpha="0" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/btnup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="#D3D3D3"
+            android:src="@drawable/baseline_keyboard_arrow_up_24"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/below"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:background="@color/below">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/qpbtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2F8003"
+                android:fontFamily="@font/abcd"
+                android:text="@string/btn_qp"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/ansbtn"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ansbtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2F8003"
+                android:fontFamily="@font/abcd"
+                android:text="@string/btn_ans"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintStart_toEndOf="@+id/qpbtn"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/btndn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/baseline_keyboard_arrow_down_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/splbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2F8003"
+                android:fontFamily="@font/abcd"
+                android:text="@string/btn_spl"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ansbtn" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/autoScrollLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#80000000"
+            android:visibility="gone"
+            android:padding="8dp">
+
+            <!-- Speed Text at the Top -->
+            <TextView
+                android:id="@+id/autoScrollSpeedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/abcd"
+                android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+                android:paddingBottom="5dp"
+            android:layout_marginBottom="8dp" />
+
+            <!-- Buttons Row Below the Text -->
+            <ImageButton
+                android:id="@+id/reverseScrollDirectionButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_button_background"
+                android:src="@drawable/ic_reverse_direction"
+                app:layout_constraintTop_toBottomOf="@id/autoScrollSpeedText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/decScrollSpeedButton"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                android:layout_marginEnd="8dp" />
+
+
+            <ImageButton
+                android:id="@+id/decScrollSpeedButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_button_background"
+                android:src="@drawable/ic_decrease"
+                app:layout_constraintTop_toBottomOf="@id/autoScrollSpeedText"
+                app:layout_constraintStart_toEndOf="@id/reverseScrollDirectionButton"
+                app:layout_constraintEnd_toStartOf="@id/toggleAutoScrollButton"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/toggleAutoScrollButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_button_background"
+                android:src="@drawable/ic_play_arrow"
+                app:layout_constraintTop_toBottomOf="@id/autoScrollSpeedText"
+                app:layout_constraintStart_toEndOf="@id/decScrollSpeedButton"
+                app:layout_constraintEnd_toStartOf="@id/incScrollSpeedButton"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/incScrollSpeedButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_button_background"
+                android:src="@drawable/ic_increase"
+                app:layout_constraintTop_toBottomOf="@id/autoScrollSpeedText"
+                app:layout_constraintStart_toEndOf="@id/toggleAutoScrollButton"
+                app:layout_constraintEnd_toStartOf="@id/stopAutoScrollButton"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/stopAutoScrollButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_button_background"
+                android:src="@drawable/close_icon"
+                app:layout_constraintTop_toBottomOf="@id/autoScrollSpeedText"
+                app:layout_constraintStart_toEndOf="@id/incScrollSpeedButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_chainStyle="spread" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+</layout>

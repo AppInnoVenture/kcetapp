@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KCETPreviousYearPapers" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.KCETPreviousYearPapers" parent="Base.Theme.KCETPreviousYearPapers" >
+        <item name="android:actionMenuTextAppearance">@style/OverflowMenuTextAppearance</item>
+    </style>
+
+    <style name="SnackbarLightTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="snackbarStyle">@style/Widget.Material3.Snackbar</item>
+    </style>
+
+    <style name="SnackbarNightTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="snackbarStyle">@style/Widget.Material3.Snackbar</item>
+    </style>
+</resources>

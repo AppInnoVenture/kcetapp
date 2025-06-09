@@ -1,0 +1,180 @@
+<resources>
+ 
+<!--   navigation drawer -->
+    <string name="nav_open">ನ್ಯಾವಿಗೇಷನ್ ಡ್ರಾಯರ್ ತೆರೆಯಿರಿ</string>
+    <string name="nav_close">ನ್ಯಾವಿಗೇಷನ್ ಡ್ರಾಯರ್ ಮುಚ್ಚಿರಿ</string>
+    <string name="nav_home">ಮುಖಪುಟ</string>
+    <string name="nav_tg">ನಮ್ಮ ಟೆಲಿಗ್ರಾಮ್ ಗುಂಪಿಗೆ ಸೇರಿಕೊಳ್ಳಿ</string>
+    <string name="nav_tg2">ನಮ್ಮ ೨ನೇ ಟೆಲಿಗ್ರಾಮ್ ಗುಂಪಿಗೆ ಸೇರಿಕೊಳ್ಳಿ</string>
+    <string name="nav_share">ಅಪ್ಲಿಕೇಶನ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="nav_more">ಇನ್ನಷ್ಟು ಅಪ್ಲಿಕೇಶನ್‌ಗಳು</string>
+    <string name="nav_dark">ಡಾರ್ಕ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
+    <string name="nav_delete">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಎಲ್ಲಾ ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಿ</string>
+    <string name="nav_privacy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+    <string name="nav_exit">ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ನಿರ್ಗಮಿಸಿ</string>
+    <string name="nav_2puc"> Second PUC Notes ಆ್ಯಪ್ ಅನ್ನು ಪ್ಲೇ ಸ್ಟೋರ್‌ನಿಂದ ಪಡೆಯಿರಿ</string>
+    <string name="nav_1puc">First PUC Notes ಆ್ಯಪ್ ಅನ್ನು ಪ್ಲೇ ಸ್ಟೋರ್‌ನಿಂದ ಪಡೆಯಿರಿ</string>
+    <string name="nav_pucqp">PUC Question Papers ಆ್ಯಪ್ ಅನ್ನು ಪ್ಲೇ ಸ್ಟೋರ್‌ನಿಂದ ಪಡೆಯಿರಿ</string>
+    <string name="nav_kan">ಆಂಗ್ಲ ಭಾಷೆಗೆ ಬದಲಿಸಿ</string>
+<string name="nav_contact">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ/ಸಲಹೆಗಳು</string>
+
+<!--   toast messages -->
+    <string name="qpdf">ನೀವು ಈಗಾಗಲೇ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದೀರಿ</string>
+    <string name="apdf">ನೀವು ಈಗಾಗಲೇ ಕೀ ಉತ್ತರಗಳನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದೀರಿ</string>
+    <string name="waitt">ದಯವಿಟ್ಟು ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಳ್ಳುವವರೆಗೆ ಕಾಯಿರಿ</string>
+    <string name="noNet">ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="noNetRetry">ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್ ಸಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು \u0027ಮರುಪ್ರಯತ್ನಿಸಿ\u0027 ಬಟನ್ ಒತ್ತಿರಿ</string>
+    <string name="errr">ಫೈಲ್ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ನಮ್ಮ ಟೆಲಿಗ್ರಾಮ್ ಗುಂಪಿನಲ್ಲಿ ವರದಿ ಮಾಡಿ</string>
+    <string name="errdwd">ಫೈಲ್ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ನೀವು ಫೈಲ್ ಅನ್ನು ಮತ್ತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?</string>
+    <string name="noFiles">ಅಳಿಸಲು ಯಾವುದೇ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="dwding">ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ&#8230; ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ</string>
+    <string name="dwdComp">ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="lanShortcutToast">ಮುಖಪುಟದಲ್ಲಿ ಶಾರ್ಟ್‌ಕಟ್ ಸೃಷ್ಟಿಸಲು \u0027ಸೇರಿಸಿ\u0027 ಬಟನ್ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+
+    <string name="alertTitle">ಅಳಿಸುವಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸಿ</string>
+    <string name="alertMsg">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಎಲ್ಲಾ ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಬೇಕೆ?</string>
+    <string name="alertLanMsg">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಬೇಕೆ?</string>
+    <string name="alertPositive">ರದ್ದುಮಾಡಿ</string>
+    <string name="alertNegative">ಅಳಿಸಿ</string>
+    <string name="alertCancel">ಅಳಿಸುವಿಕೆ ಕಾರ್ಯಾಚರಣೆ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="alertDelete">ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="alertRestore">ಅಳಿಸಲಾದ ಫೈಲ್‌ಗಳು ಯಶಸ್ವಿಯಾಗಿ ಹಿಂಪಡೆಯಲಾಗಿದೆ</string>
+
+<!--   buttons -->
+    <string name="tab_qp">ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಗಳು</string>
+    <string name="tab_up">KCET\nಮಾಹಿತಿ</string>
+    <string name="tab_notes">ನೋಟ್ಸ್</string>
+    <string name="tab_cutoff">ಕಟ್-ಆಫ್</string>
+
+    <string name="btn_qp">ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ</string>
+    <string name="btn_ans">ಕೀ ಉತ್ತರಗಳು</string>
+    <string name="btn_spl">ಸ್ಪ್ಲಿಟ್‌ ಮೋಡ್</string>
+
+    <string name="lan_shortcut">ಶಾರ್ಟ್ಕಟ್ ಸೃಷ್ಟಿಸಿ</string>
+    <string name="lan_delete">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಿ</string>
+
+    <string name="snack_retry">ಮರುಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="snack_undo">ಹಿಂಪಡೆಯಿರಿ</string>
+    <string name="snack_yes">ಹೌದು</string>
+
+    <string name="head_sol">ಉತ್ತರಗಳೊಂದಿಗೆ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ</string>
+    <string name="head_notes">ಪುನರಾವರ್ತನೆ ನೋಟ್ಸ್</string>
+
+    <string name="KanNote">ಸೂಚನೆ: ಕನ್ನಡ ಭಾಷಾ ಪರೀಕ್ಷೆಯು ಹೊರನಾಡು ಮತ್ತು ಗಡಿನಾಡು ಕನ್ನಡಿಗ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಮಾತ್ರ (ಅರ್ಹತಾ ಖಂಡಗಳು c ಮತ್ತು d).\nಕನಿಷ್ಠ ಉತ್ತೀರ್ಣ ಅಂಕಗಳು 50 ರಲ್ಲಿ 12.</string>
+    <string name="prcNote">ಸೂಚನೆ: ಪ್ರಾಯೋಗಿಕ ಪರೀಕ್ಷೆಯು ಕೃಷಿಕರ ಕೋಟಾವನ್ನು ಪಡೆಯಲು ಅರ್ಹರಾದ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ.\nಕನಿಷ್ಠ ಉತ್ತೀರ್ಣ ಅಂಕಗಳು 200 ರಲ್ಲಿ 100 (50%).</string>
+
+<!--   recycler items -->
+    <string name="phy">ಭೌತಶಾಸ್ತ್ರ</string>
+    <string name="che">ರಸಾಯನಶಾಸ್ತ್ರ</string>
+    <string name="bio">ಜೀವಶಾಸ್ತ್ರ</string>
+    <string name="mat">ಗಣಿತ</string>
+    <string name="kan">ಕನ್ನಡ</string>
+    <string name="vetno">ಕೃಷಿ/ಪಶುವೈದ್ಯಕೀಯ ಪ್ರಾಯೋಗಿಕ</string>
+ 
+    <string name="mbbs">ವೈದ್ಯಕೀಯ</string>
+    <string name="engg">ಇಂಜಿನಿಯರಿಂಗ್</string>
+    <string name="vet">ಪಶುವೈದ್ಯಕೀಯ</string>
+    <string name="agri">ಕೃಷಿ</string>
+    <string name="bds">ದಂತವೈದ್ಯಕೀಯ</string>
+    <string name="ayu">ಆಯುಷ್</string>
+    <string name="phar">ಔಷಧಶಾಸ್ತ್ರ</string>
+    <string name="arch">ವಾಸ್ತುಶಿಲ್ಪ</string>
+    <string name="bnys">BNYS</string>
+    <string name="nurs">ನರ್ಸಿಂಗ್</string>
+    <string name="ahs">B. Sc - AHS</string>
+    
+    <string name="up_kcet">KCET ೨೦೨೫ ಮಾಹಿತಿ</string>
+    <string name="up_prac">KCET ೨೦೨೫ ಪ್ರಾಯೋಗಿಕ ಪರೀಕ್ಷಾ ಮಾಹಿತಿ</string>
+    <string name="up_info">KCET ೨೦೨೫ ಮಾಹಿತಿ ಪುಸ್ತಕ</string>
+    <string name="up_rank">KCET ಶ್ರೇಯಾಂಕ ನಿರ್ಧರಿಸುವ ಮಾನದಂಡಗಳು</string>
+
+    <string name="up_info_pdf">infok.pdf</string>
+    <string name="up_kcet_pdf">kcetk.pdf</string>
+    <string name="up_prac_pdf">prack.pdf</string>
+    <string name="up_rank_pdf">rankk.pdf</string>
+
+<!--   donation -->
+    <string name="thankk">ಧನ್ಯವಾದಗಳು</string>
+    <string name="donationn">ಅಗತ್ಯ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ರಚಿಸಲು ಸಾಕಷ್ಟು ದಿನಗಳು ಬೇಕಾಗುತ್ತವೆ. ನಿಮ್ಮ ಸಣ್ಣ ಸಹಾಯ (\u20B910 ಸಹ) ಸರ್ವರ್ ವೆಚ್ಚಗಳನ್ನು ಭರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಈ ಅಪ್ಲಿಕೇಶನ್ ನಿಮಗೆ ಸಹಾಯ ಮಾಡಿದ್ದರೆ ನೀವು ಬಯಸಿದ ಯಾವುದೇ ಮೊತ್ತವನ್ನು ನಮಗೆ ನೀಡಲು ಪರಿಗಣಿಸಿ.\nನಿಮ್ಮ ಬೆಂಬಲಕ್ಕೆ ಮುಂಚಿತವಾಗಿ ಧನ್ಯವಾದಗಳು!</string>
+
+
+    <string name="menu_go_to_first_page">ಮೊದಲ ಪುಟಕ್ಕೆ ಹೋಗಿ</string>
+    <string name="menu_go_to_last_page">ಕೊನೆಯ ಪುಟಕ್ಕೆ ಹೋಗಿ</string>
+    <string name="menu_jump_to_page">ಪುಟ ಸಂಖ್ಯೆ&#8230;</string>
+    <string name="menu_toggle_auto_scroll">ಸ್ವಯಂ ಸ್ಕ್ರಾಲ್</string>
+    <string name="menu_toggle_slideshow_start">ಸ್ಲೈಡ್‌ಶೋ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="menu_toggle_slideshow_stop">ಸ್ಲೈಡ್‌ಶೋ ನಿಲ್ಲಿಸಿ</string>
+    <string name="menu_toggle_night_mode_to_light">ಲೈಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
+    <string name="menu_toggle_night_mode_to_dark">ಡಾರ್ಕ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
+    <string name="menu_toggle_fullscreen">ಪೂರ್ಣ ಸ್ಕ್ರೀನ್ ಮೋಡ್</string>
+    <string name="menu_share_screenshot">ಅಪ್ಲಿಕೇಶನ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="menu_zoom_to">ಜೂಮ್ ಮಾಡಿ</string>
+    <string name="menu_toggle_rotation_lock_lock">ಸ್ಕ್ರೀನ್ ತಿರುಗುವಿಕೆ ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="menu_toggle_rotation_lock_unlock">ಸ್ಕ್ರೀನ್ ತಿರುಗುವಿಕೆ ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="menu_rotate_clockwise">ಪ್ರದಕ್ಷಿಣಾಕಾರವಾಗಿ ತಿರುಗಿಸಿ</string>
+    <string name="menu_rotate_anticlockwise">ಅಪ್ರದಕ್ಷಿಣಾಕಾರವಾಗಿ ತಿರುಗಿಸಿ</string>
+    <string name="menu_toggle_volume_buttons_enable">ವಾಲ್ಯೂಮ್ ಕೀ ಸ್ಕ್ರಾಲ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="menu_toggle_volume_buttons_disable">ವಾಲ್ಯೂಮ್ ಕೀ ಸ್ಕ್ರಾಲ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="menu_swipe_horizontal_to_vertical">ಲಂಬವಾಗಿ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="menu_swipe_horizontal_to_horizontal">ಅಡ್ಡಲಾಗಿ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="menu_toggle_spacing_add">ಅಂತರವನ್ನು ಸೇರಿಸಿ</string>
+    <string name="menu_toggle_spacing_remove">ಅಂತರವನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+    <string name="menu_page_fling">ವೇಗದ ಪುಟ ಸ್ವೈಪ್</string>
+    <string name="menu_page_snap">ಪುಟ ಕೇಂದ್ರೀಕರಣ</string>
+    <string name="menu_exit">ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ನಿರ್ಗಮಿಸಿ</string>
+
+    <string name="toast_auto_scroll_layout_closed">ಸ್ವಯಂ ಸ್ಕ್ರಾಲ್ ಲೇಔಟ್ ಮುಚ್ಚಲಾಗಿದೆ</string>
+    <string name="toast_rotated_clockwise">ಪ್ರದಕ್ಷಿಣಾಕಾರವಾಗಿ ತಿರುಗಿಸಲಾಗಿದೆ</string>
+    <string name="toast_rotated_anticlockwise">ಅಪ್ರದಕ್ಷಿಣಾಕಾರವಾಗಿ ತಿರುಗಿಸಲಾಗಿದೆ</string>
+    <string name="toast_locked_screen_rotation">ಸ್ಕ್ರೀನ್ ತಿರುಗುವಿಕೆ ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="toast_unlocked_screen_rotation">ಸ್ಕ್ರೀನ್ ತಿರುಗುವಿಕೆ ಅನ್ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="toast_volume_button_scroll_enabled_state">ವಾಲ್ಯೂಮ್ ಬಟನ್ ಸ್ಕ್ರಾಲ್ %1$s</string>
+    <string name="state_enabled">ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="state_disabled">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="toast_already_on_last_page">ಈಗಾಗಲೇ ಕೊನೆಯ ಪುಟದಲ್ಲಿದ್ದೀರಿ</string>
+    <string name="toast_navigated_to_last_page">ನೀವು ಈಗ ಕೊನೆಯ ಪುಟದಲ್ಲಿದ್ದೀರಿ</string>
+    <string name="toast_already_on_first_page">ಈಗಾಗಲೇ ಮೊದಲ ಪುಟದಲ್ಲಿದ್ದೀರಿ</string>
+    <string name="toast_navigated_to_first_page">ನೀವು ಈಗ ಮೊದಲ ಪುಟದಲ್ಲಿದ್ದೀರಿ</string>
+    <string name="toast_swipe_direction_enabled">%1$s ಸ್ವೈಪ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="direction_horizontal">ಅಡ್ಡಲಾದ</string>
+    <string name="direction_vertical">ಲಂಬವಾದ</string>
+    <string name="toast_slideshow_stopped">ಸ್ಲೈಡ್‌ಶೋ ನಿಲ್ಲಿಸಲಾಗಿದೆ</string>
+    <string name="toast_added_spacing">ಅಂತರವನ್ನು ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="toast_removed_spacing">ಅಂತರವನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ</string>
+    <string name="toast_page_number_field_empty">ಪುಟ ಸಂಖ್ಯೆ ಖಾಲಿ ಇರಬಾರದು</string>
+    <string name="toast_already_viewing_page">ನೀವು ಈಗಾಗಲೇ ಪುಟ %1$d ವೀಕ್ಷಿಸುತ್ತಿದ್ದೀರಿ!</string>
+    <string name="toast_navigated_to_page_number">ನೀವು ಈಗ ಪುಟ %1$d ರಲ್ಲಿ ಇದ್ದೀರಿ</string>
+    <string name="toast_page_number_must_be_between">ಪುಟ ಸಂಖ್ಯೆ 1 ಮತ್ತು %1$d ನಡುವೆ ಇರಬೇಕು</string>
+    <string name="toast_please_enter_valid_number">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="toast_zoom_level_field_empty">ಜೂಮ್ ಮಟ್ಟದ ಕ್ಷೇತ್ರ ಖಾಲಿ ಇರಬಾರದು</string>
+    <string name="toast_zoom_level_already_at">ಜೂಮ್ ಮಟ್ಟ ಈಗಾಗಲೇ %1$d%% ನಲ್ಲಿದೆ!</string>
+    <string name="toast_zoomed_to_percent">%1$d%% ಗೆ ಜೂಮ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="toast_zoom_level_must_be_between">ಜೂಮ್ ಮಟ್ಟ 50 ಮತ್ತು 1000% ನಡುವೆ ಇರಬೇಕು</string>
+    <string name="toast_slideshow_started">ಸ್ಲೈಡ್‌ಶೋ ಪ್ರಾರಂಭಿಸಲಾಗಿದೆ</string>
+    <string name="toast_duration_must_be_greater_than_zero">ಅವಧಿಯು 0 ಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬೇಕು</string>
+    <string name="toast_reached_last_page">ಕೊನೆಯ ಪುಟವನ್ನು ತಲುಪಲಾಗಿದೆ</string>
+    <string name="toast_page_swipe_enabled">ವೇಗದ ಪುಟ ಸ್ವೈಪ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="toast_page_swipe_disabled">ವೇಗದ ಪುಟ ಸ್ವೈಪ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="toast_page_alignment_enabled">ಪುಟ ಕೇಂದ್ರೀಕರಣ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="toast_page_alignment_disabled">ಪುಟ ಕೇಂದ್ರೀಕರಣ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="toast_direction_reversed">ದಿಕ್ಕನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ</string>
+<string name="toast_preparing_screenshot">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತಯಾರಿಸಲಾಗುತ್ತಿದೆ&#8230;</string>
+
+    <string name="dialog_title_enter_page_number">ಪುಟ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ:</string>
+    <string name="dialog_button_ok">ಸರಿ</string>
+    <string name="dialog_button_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="dialog_title_enter_zoom_level">ಜೂಮ್ ಮಟ್ಟವನ್ನು ನಮೂದಿಸಿ (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">ಸ್ಲೈಡ್‌ಶೋ ಅವಧಿಯನ್ನು ನಮೂದಿಸಿ (ಸೆಕೆಂಡುಗಳು)</string>
+    <string name="dialog_button_start">ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="dialog_title_enable_fast_page_swipe">ವೇಗದ ಪುಟ ಸ್ವೈಪ್ ಸಕ್ರಿಯಗೊಳಿಸಬೇಕೆ?</string>
+    <string name="dialog_button_enable">ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="dialog_button_disable">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="dialog_title_enable_page_alignment">ಪುಟ ಕೇಂದ್ರೀಕರಣ ಸಕ್ರಿಯಗೊಳಿಸಬೇಕೆ?</string>
+
+    <string name="dialog_message_fast_page_swipe">ವೇಗದ ಪುಟ ಸ್ವೈಪ್ ಪುಸ್ತಕದಲ್ಲಿ ಪುಟಗಳನ್ನು ತಿರುಗಿಸುವಂತೆ %1$s ಸ್ವೈಪ್ ಮಾಡುವ ಮೂಲಕ ಪುಟಗಳನ್ನು ತ್ವರಿತವಾಗಿ ತಿರುಗಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಇದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ ಒಂದು ಸ್ವೈಪ್ ನಿಮ್ಮನ್ನು ಮುಂದಿನ ಅಥವಾ ಹಿಂದಿನ ಪುಟಕ್ಕೆ ಕರೆದೊಯ್ಯುತ್ತದೆ. ಇದು ಪುಟಗಳ ಮೂಲಕ ಚಲಿಸುವುದನ್ನು ವೇಗಗೊಳಿಸುತ್ತದೆ, ಆದರೆ ಇತರ ಸ್ವೈಪಿಂಗ್ ಕ್ರಿಯೆಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು.\nನೀವು ವೇಗದ ಪುಟ ಸ್ವೈಪ್ ಸಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುವಿರಾ?</string>
+    <string name="dialog_message_page_alignment">ಪುಟ ಕೇಂದ್ರೀಕರಣದಿಂದ ನೀವು %1$s ಸ್ವೈಪ್ ಮಾಡಿದ ನಂತರ ಪ್ರತಿ ಪುಟವು ಸಂಪೂರ್ಣವಾಗಿ ಕೇಂದ್ರಿತವಾಗಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸುತ್ತದೆ. ಇದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನೀವು ಸ್ವೈಪ್ ಮಾಡುವುದನ್ನು ನಿಲ್ಲಿಸಿದೊಡನೆ ಪುಟವು ತಾನಾಗಿಯೇ ಮಧ್ಯದಲ್ಲಿ ನೆಲೆಗೊಳ್ಳುತ್ತದೆ. ಇದು ಓದುವುದನ್ನು ಸುಲಭಗೊಳಿಸುತ್ತದೆ ಆದರೆ ಸ್ವಲ್ಪ ಕಡಿಮೆ ಸರಾಗವೆಂದು ಅನಿಸಬಹುದು.\nನೀವು ಪುಟ ಕೇಂದ್ರೀಕರಣವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುವಿರಾ?</string>
+    
+    <string name="direction_horizontally">ಅಡ್ಡಲಾಗಿ</string>
+    <string name="direction_up_or_down">ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ</string>
+
+</resources>

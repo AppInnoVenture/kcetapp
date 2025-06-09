@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgColor">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#FFEB3B"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/note"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+            android:padding="3dp"
+            android:backgroundTint="@color/viewLan"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/toolbar"
+            android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/abcd"
+                    android:textSize="16sp"
+                    android:id="@+id/kanNote"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/textviewLan"
+                    android:text="@string/prcNote" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewLan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/note"
+            android:layout_marginVertical="5dp" />
+    </RelativeLayout>
+</layout>
