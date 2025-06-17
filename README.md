@@ -1,6 +1,6 @@
 # KCET Notes and Question Papers 📚
 
-Welcome to the **KCET Notes and Question Papers** app, your one-stop solution for Karnataka CET exam preparation! Built from scratch by **Yashas Gowda B K**, this app has empowered **10,000+ students** to ace their exams (though Google Play displays **5,000+ downloads**—guess they’re a bit slow to update 😉). With a **4.7 rating** on Google Play, it’s packed with features to make studying seamless and engaging.
+Welcome to the **KCET Notes and Question Papers** app, your one-stop solution for Karnataka CET exam preparation! Built from scratch by **Yashas Gowda B K**, this app has empowered **10,000+ students** to ace their exams. With a **4.7 rating** on Google Play, it’s packed with features to make studying seamless and engaging.
 
 [Download on Google Play](https://play.google.com/store/apps/details?id=com.kea.pyp&utm_source=shareApp)
 
