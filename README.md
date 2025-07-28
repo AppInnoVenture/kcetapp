@@ -20,7 +20,7 @@ announcements.
 
 ## 🛠️ Tech Stack
 - **Languages**: Kotlin, XML
-- **Frameworks**: Android SDK, Firebase, Supabase Jetpack (ViewPager2, Navigation Component, ViewModel, LiveData), Material Design, Kotlin Coroutines, Glide
+- **Frameworks**: Android SDK, Firebase, Supabase, Jetpack (ViewPager2, Navigation Component, ViewModel, LiveData), Material Design, Kotlin Coroutines, Glide
 - **Tools**: Android Studio, Gradle, Git
 
 ---
