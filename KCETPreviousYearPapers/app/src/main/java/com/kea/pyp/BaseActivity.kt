@@ -3,13 +3,15 @@ package com.kea.pyp
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.res.Configuration
+import android.graphics.Color
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.os.LocaleList
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.edit
 import androidx.lifecycle.lifecycleScope
+import com.github.barteksc.pdfviewer.scroll.DefaultScrollHandle
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.delay
@@ -20,16 +22,25 @@ import java.util.Locale
 open class BaseActivity : AppCompatActivity() {
 
     protected lateinit var basePreferences: SharedPreferences
+    private val connectivityManager: ConnectivityManager by lazy {
+        getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+    }
+
     override fun attachBaseContext(newBase: Context) {
         basePreferences = newBase.getSharedPreferences("app_preferences", Context.MODE_PRIVATE)
-        val language = basePreferences.getString("language", null) ?:
-            if (newBase.resources.configuration.locales[0].language == "kn") "kn" else "en"
-                .also { basePreferences.edit { putString("language", it) } }
-
-        super.attachBaseContext(newBase.createConfigurationContext(Configuration().apply {
-            setLocale(Locale(language))
-            Locale.setDefault(Locale(language))
-        }))
+        val language = basePreferences.getString("language", "sys") ?: "sys"
+        if (language != "sys") {
+            try {
+                val selectedLocale = Locale.forLanguageTag(language)
+                val config = Configuration(newBase.resources.configuration)
+                config.setLocales(LocaleList(selectedLocale))
+                super.attachBaseContext(newBase.createConfigurationContext(config))
+            } catch (e: Exception) {
+                super.attachBaseContext(newBase)
+            }
+        } else {
+            super.attachBaseContext(newBase)
+        }
     }
 
     protected fun createScrollHandle(): DefaultScrollHandle {
@@ -73,9 +84,9 @@ open class BaseActivity : AppCompatActivity() {
     }
 
     protected fun isInternetAvailable(): Boolean {
-        val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val network = connectivityManager.activeNetwork ?: return false
         val networkCapabilities = connectivityManager.getNetworkCapabilities(network) ?: return false
-        return networkCapabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
+        return networkCapabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) &&
+                networkCapabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED)
     }
 }

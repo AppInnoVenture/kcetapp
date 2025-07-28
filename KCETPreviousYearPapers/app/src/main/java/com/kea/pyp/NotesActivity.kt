@@ -92,7 +92,6 @@ class NotesActivity : BaseActivity() {
             // In main app it initialises a list containing different chapters of particular subject, simplified here to keep it private; happy to demo it in an interview! 
            }
 
-        suffix = intent.getStringExtra("suffix").toString()
         val itemAdapterLan = AdapterLan(notesitems) { item ->
             if ("no" in pre) {
                 val intent = Intent(this, NotesActivity::class.java)

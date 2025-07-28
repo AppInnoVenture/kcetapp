@@ -15,8 +15,10 @@
     <string name="nav_2puc"> Second PUC Notes ಆ್ಯಪ್ ಅನ್ನು ಪ್ಲೇ ಸ್ಟೋರ್‌ನಿಂದ ಪಡೆಯಿರಿ</string>
     <string name="nav_1puc">First PUC Notes ಆ್ಯಪ್ ಅನ್ನು ಪ್ಲೇ ಸ್ಟೋರ್‌ನಿಂದ ಪಡೆಯಿರಿ</string>
     <string name="nav_pucqp">PUC Question Papers ಆ್ಯಪ್ ಅನ್ನು ಪ್ಲೇ ಸ್ಟೋರ್‌ನಿಂದ ಪಡೆಯಿರಿ</string>
-    <string name="nav_kan">ಆಂಗ್ಲ ಭಾಷೆಗೆ ಬದಲಿಸಿ</string>
+      <string name="nav_kan">ಭಾಷೆ ಬದಲಿಸಿ</string>
 <string name="nav_contact">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ/ಸಲಹೆಗಳು</string>
+    <string name="nav_light">ಲೈಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
+    <string name="dwdCancel">ಡೌನ್‌ಲೋಡ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
 
 <!--   toast messages -->
     <string name="qpdf">ನೀವು ಈಗಾಗಲೇ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದೀರಿ</string>
@@ -92,6 +94,12 @@
     <string name="up_kcet_pdf">kcetk.pdf</string>
     <string name="up_prac_pdf">prack.pdf</string>
     <string name="up_rank_pdf">rankk.pdf</string>
+
+<string name="already_latest_updates">ನೀವು ಈಗಾಗಲೇ ಇತ್ತೀಚಿನ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದೀರಿ</string>
+<string name="refresh_successful">ಯಶಸ್ವಿಯಾಗಿ ರಿಫ್ರೆಶ್ ಮಾಡಲಾಗಿದೆ</string>
+<string name="error_no_internet_refresh">ರಿಫ್ರೆಶ್ ಮಾಡಲು ದಯವಿಟ್ಟು ಇಂಟರ್ನೆಟ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+<string name="opening_browser_chooser">"ಈ ಲಿಂಕ್ ನಿಮ್ಮ ಸಾಧನದ ಡೀಫಾಲ್ಟ್ ವೆಬ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ"</string>
+<string name="last_updated">ಕೊನೆಯದಾಗಿ ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ: %1$s</string>
 
 <!--   donation -->
     <string name="thankk">ಧನ್ಯವಾದಗಳು</string>

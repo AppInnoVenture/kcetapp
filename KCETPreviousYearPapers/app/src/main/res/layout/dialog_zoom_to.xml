@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -7,22 +8,24 @@
             type="String" />
     </data>
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
         android:padding="25dp">
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/zoomInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             app:boxBackgroundMode="none"
-            android:theme="@style/Theme.MaterialComponents">
+            app:theme="@style/Theme.MaterialComponents"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/percentSymbol"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edit_zoom_level"
+                android:id="@+id/editZoomLevel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -34,13 +37,17 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
+            android:id="@+id/percentSymbol"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/percentSymbol"
             android:text="%"
             android:textAppearance="?attr/textAppearanceBody2"
             android:textColor="@color/textviewLan"
-            android:theme="@style/Theme.MaterialComponents" />
-    </LinearLayout>
+            app:theme="@style/Theme.MaterialComponents"
+            app:layout_constraintStart_toEndOf="@id/zoomInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

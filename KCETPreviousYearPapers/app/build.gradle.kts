@@ -1,30 +1,24 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    kotlin("plugin.serialization") version "2.1.21"
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace = "com.kea.pyp"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.kea.pyp"
         minSdk = 24
-        targetSdk = 35
-        versionCode = 30
-        versionName = "2.20"
+        targetSdk = 36
+        versionCode = 31
+        versionName = "3.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    splits {
-        abi {
-            isEnable = true
-            reset()
-            include("arm64-v8a", "x86", "armeabi-v7a", "x86_64")
-            isUniversalApk = false
-        }
-    }
     buildTypes {
         release {
             isMinifyEnabled = true
@@ -41,9 +35,22 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+        isCoreLibraryDesugaringEnabled = true
     }
-    kotlinOptions {
-        jvmTarget = "11"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+        }
+    }
+
+    androidResources {
+        localeFilters.clear()
+        localeFilters += mutableSetOf("en","kn", "hi", "te", "ta", "mr", "ml", "ur", "ar", "fr", "tcy")
+    }
+    bundle {
+        language {
+            enableSplit = false
+        }
     }
 }
 
@@ -57,8 +64,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation("com.github.mhiew:android-pdf-viewer:3.2.0-beta.3")
-    implementation("com.github.bumptech.glide:glide:4.16.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0")
+    implementation(libs.android.pdf.viewer)
+    implementation(libs.glide)
+    implementation(libs.okhttp)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.swiperefreshlayout)
+    implementation(platform(libs.supabase.bom))
+    implementation(libs.postgrest.kt)
+    implementation(libs.ktor.client.android)
+    implementation(libs.kotlinx.serialization.json)
+
+    implementation(libs.firebase.messaging)
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
 }

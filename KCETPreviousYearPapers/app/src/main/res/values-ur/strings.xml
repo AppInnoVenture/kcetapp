@@ -1,0 +1,181 @@
+<resources>
+    
+    <!-- Additions -->
+    <string name="tab_cutoff">کٹ آف</string>
+    <string name="tab_notes">نوٹس</string>
+    <string name="prcNote">نوٹ: عملی امتحان صرف ان امیدواروں پر लागو ہوتا ہے جو زرعی کوٹہ کے اہل ہیں۔\nکم از کم پاسنگ نمبر 200 میں سے 100 (50%) ہیں۔</string>
+    <string name="KanNote">نوٹ: کنڑ زبان کا امتحان صرف ہوراناڈو اور گڈیناڈو کنڑ امیدواروں کے لیے ہے (اہلیت کے شق c اور d)۔\nکم از کم پاسنگ نمبر 50 میں سے 12 ہیں۔</string>
+    <string name="head_notes">نظرثانی نوٹس</string>
+    <string name="head_sol">جوابات کے ساتھ سوالیہ پرچہ</string>
+    <string name="nav_pucqp">پلی اسٹور پر PUC سوالیہ پرچے ایپ حاصل کریں</string>
+    <string name="phy">فزکس</string>
+    <string name="che">کیمسٹری</string>
+    <string name="bio">بائیو</string>
+    <string name="mat">ریاضی</string>
+    <string name="kan">کنڑ</string>
+    <string name="vetno">زرعی/ویٹرنری عملی</string>
+    <string name="mbbs">ایم بی بی ایس</string>
+    <string name="engg">انجینئرنگ</string>
+    <string name="vet">ویٹرنری</string>
+    <string name="agri">زراعت</string>
+    <string name="bds">ڈینٹل</string>
+    <string name="ayu">آیوش</string>
+    <string name="phar">فارمیسی</string>
+    <string name="arch">آرکیٹیکچر</string>
+    <string name="bnys">بی این وائی ایس</string>
+    <string name="nurs">نرسنگ</string>
+    <string name="ahs">بی۔ایس سی - اے ایچ ایس</string>
+    <string name="up_kcet">KCET 2025 اپ ڈیٹ</string>
+    <string name="up_prac">KCET 2025 عملی امتحان اپ ڈیٹ</string>
+    <string name="up_info">KCET 2025 معلوماتی بلیٹن</string>
+    <string name="up_rank">KCET رینک تعین کے معیار</string>
+    <string name="up_info_pdf">info.pdf</string>
+    <string name="up_kcet_pdf">kcet.pdf</string>
+    <string name="up_prac_pdf">prac.pdf</string>
+    <string name="up_rank_pdf">rank.pdf</string>
+
+    <string name="nav_open">نیویگیشن ڈراور کھولیں</string>
+    <string name="nav_close">نیویگیشن ڈراور بند کریں</string>
+    <string name="nav_home">ہوم پیج</string>
+    <string name="nav_tg">ہمارا ٹیلیگرام گروپ جوائن کریں</string>
+    <string name="nav_tg2">ہمارا ٹیلیگرام گروپ 2 جوائن کریں</string>
+    <string name="nav_share">ایپ شیئر کریں</string>
+    <string name="nav_more">مزید ایپس</string>
+    <string name="nav_dark">ڈارک موڈ پر سوئچ کریں</string>
+    <string name="nav_delete">تمام ڈاؤن لوڈ کردہ فائلیں حذف کریں</string>
+    <string name="nav_privacy">پرائیویسی پالیسی</string>
+    <string name="nav_exit">ایپ سے باہر نکلیں</string>
+    <string name="nav_2puc">پلے اسٹور پر سیکنڈ PUC نوٹس ایپ حاصل کریں</string>
+    <string name="nav_1puc">پلی اسٹور پر پہلا پی یو سی نوٹس ایپ حاصل کریں</string>
+    <string name="nav_kan">زبان تبدیل کریں</string>
+    <string name="nav_contact">ہم سے رابطہ کریں/تجاویز</string>
+    <string name="nav_light">لائٹ موڈ پر سوئچ کریں</string>
+
+    <string name="qpdf">آپ پہلے سے ہی سوالیہ پرچہ دیکھ رہے ہیں</string>
+    <string name="apdf">آپ پہلے سے ہی کلیدی جوابات دیکھ رہے ہیں</string>
+    <string name="waitt">براہ کرم ڈاؤن لوڈ مکمل ہونے تک انتظار کریں</string>
+    <string name="noNet">مواد ڈاؤن لوڈ کرنے کے لیے براہ کرم انٹرنیٹ فعال کریں</string>
+    <string name="noNetRetry">مواد ڈاؤن لوڈ کرنے کے لیے براہ کرم انٹرنیٹ فعال کریں اور \u0027دوبارہ کوشش کریں\u0027 بٹن پر ٹیپ کریں</string>
+    <string name="errr">ایک خامی پیش آئی، براہ کرم ہمارے ٹیلیگرام گروپ میں رپورٹ کریں</string>
+    <string name="errdwd">مواد لوڈ کرنے میں ناکامی۔ کیا آپ اسے دوبارہ ڈاؤن لوڈ کرنا چاہیں گے؟</string>
+    <string name="noFiles">حذف کرنے کے لیے کوئی ڈاؤن لوڈ کردہ فائلیں دستیاب نہیں ہیں</string>
+    <string name="dwding">ڈاؤن لوڈ ہو رہا ہے براہ کرم انتظار کریں</string>
+    <string name="dwdComp">ڈاؤن لوڈ مکمل ہو گیا</string>
+    <string name="dwdCancel">ڈاؤن لوڈ منسوخ کر دیا گیا</string>
+    <string name="lanShortcutToast">\u0027ADD\u0027 بٹن پر ٹیپ کرکے ہوم اسکرین پر شارٹ کٹ بنائیں</string>
+    <string name="exitToast">آپ کے امتحانات کے لیے نیک خواہشات!</string>
+
+    <string name="alertTitle">حذف کی تصدیق کریں</string>
+    <string name="alertMsg">تمام ڈاؤن لوڈ کردہ فائلیں حذف کریں؟</string>
+    <string name="alertLanMsg">ڈاؤن لوڈ کردہ فائلیں حذف کریں؟</string>
+    <string name="alertPositive">منسوخ کریں</string>
+    <string name="alertNegative">حذف کریں</string>
+    <string name="alertCancel">حذف کرنے کا عمل منسوخ کر دیا گیا</string>
+    <string name="alertDelete">کامیابی سے حذف ہو گیا</string>
+    <string name="alertRestore">کامیابی سے بحال ہو گیا</string>
+
+    <string name="tab_qp">سوالیہ پرچے</string>
+    <string name="tab_up">KCET اپ ڈیٹس</string>
+
+    <string name="btn_qp">سوالیہ پرچہ</string>
+    <string name="btn_ans">کلیدی جوابات</string>
+    
+    <string name="btn_spl">اسپلٹ موڈ</string>
+
+    <string name="lan_shortcut">شارٹ کٹ بنائیں</string>
+    <string name="lan_delete">ڈاؤن لوڈ کردہ فائلیں حذف کریں</string>
+
+    <string name="snack_retry">دوبارہ کوشش کریں</string>
+    <string name="snack_undo">کالعدم کریں</string>
+    <string name="snack_yes">ہاں</string>
+
+    <string name="already_latest_updates">آپ پہلے ہی تازہ ترین اپ ڈیٹس دیکھ رہے ہیں</string>
+<string name="refresh_successful">کامیابی سے ریفریش کیا گیا</string>
+<string name="error_no_internet_refresh">ریفریش کرنے کے لیے براہ کرم انٹرنیٹ فعال کریں</string>
+<string name="opening_browser_chooser">"یہ لنک آپ کے آلے کے ڈیفالٹ ویب براؤزر میں کھلے گا"</string>
+<string name="last_updated">آخری بار اپ ڈیٹ کیا گیا: %1$s</string>
+
+    <string name="thankk">شکریہ</string>
+    <string name="donationn">وسائل جمع کرنے اور ایپ بنانے میں کئی دن لگتے ہیں۔ آپ کا چھوٹا عطیہ (حتیٰ کہ ₹10) ہمیں سرور کے اخراجات پورے کرنے میں مدد کرتا ہے۔ اگر اس ایپ نے آپ کی مدد کی ہے تو براہ کرم اپنی مرضی کی کوئی بھی رقم عطیہ کرنے پر غور کریں۔\n\nآپ کے تعاون کے لیے پیشگی شکریہ!</string>
+
+
+    <string name="menu_go_to_first_page">پہلے صفحے پر جائیں</string>
+    <string name="menu_go_to_last_page">آخری صفحے پر جائیں</string>
+    <string name="menu_jump_to_page">صفحہ پر جائیں</string>
+    <string name="menu_toggle_auto_scroll">آٹو اسکرول</string>
+    <string name="menu_toggle_slideshow_start">سلائیڈ شو شروع کریں</string>
+    <string name="menu_toggle_slideshow_stop">سلائیڈ شو روکیں</string>
+    <string name="menu_toggle_night_mode_to_light">لائٹ موڈ پر سوئچ کریں</string>
+    <string name="menu_toggle_night_mode_to_dark">ڈارک موڈ پر سوئچ کریں</string>
+    <string name="menu_toggle_fullscreen">فل سکرین موڈ</string>
+    <string name="menu_share_screenshot">اسکرینشاٹ شیئر کریں</string>
+    <string name="menu_zoom_to">زوم کریں</string>
+    <string name="menu_toggle_rotation_lock_lock">اسکرین روٹیشن لاک کریں</string>
+    <string name="menu_toggle_rotation_lock_unlock">اسکرین روٹیشن ان لاک کریں</string>
+    <string name="menu_rotate_clockwise">گھڑی کی سمت گھمائیں</string>
+    <string name="menu_rotate_anticlockwise">گھڑی کی مخالف سمت گھمائیں</string>
+    <string name="menu_toggle_volume_buttons_enable">والیوم کی اسکرول فعال کریں</string>
+    <string name="menu_toggle_volume_buttons_disable">والیوم کی اسکرول غیر فعال کریں</string>
+    <string name="menu_swipe_horizontal_to_vertical">عمودی طور پر سوائپ کریں</string>
+    <string name="menu_swipe_horizontal_to_horizontal">افقی طور پر سوائپ کریں</string>
+    <string name="menu_toggle_spacing_add">فاصلہ شامل کریں</string>
+    <string name="menu_toggle_spacing_remove">فاصلہ ہٹائیں</string>
+    <string name="menu_page_fling">تیز صفحہ سوائپ</string>
+    <string name="menu_page_snap">صفحہ سیدھ میں لانا</string>
+    <string name="menu_exit">ایپ سے باہر نکلیں</string>
+
+    <string name="toast_auto_scroll_layout_closed">آٹو اسکرول لے آؤٹ بند کر دیا گیا</string>
+    <string name="toast_rotated_clockwise">گھڑی کی سمت گھما دیا گیا</string>
+    <string name="toast_rotated_anticlockwise">گھڑی کی مخالف سمت گھما دیا گیا</string>
+    <string name="toast_locked_screen_rotation">اسکرین روٹیشن لاک کر دیا گیا</string>
+    <string name="toast_unlocked_screen_rotation">اسکرین روٹیشن ان لاک کر دیا گیا</string>
+    <string name="toast_volume_button_scroll_enabled_state">والیوم بٹن اسکرول %1$s</string>
+    <string name="state_enabled">فعال</string>
+    <string name="state_disabled">غیر فعال</string>
+    <string name="toast_already_on_last_page">پہلے ہی آخری صفحے پر ہیں</string>
+    <string name="toast_navigated_to_last_page">آخری صفحے پر منتقل ہو گئے</string>
+    <string name="toast_already_on_first_page">پہلے ہی پہلے صفحے پر ہیں</string>
+    <string name="toast_navigated_to_first_page">پہلے صفحے پر منتقل ہو گئے</string>
+    <string name="toast_swipe_direction_enabled">%1$s سوائپ فعال کر دیا گیا</string>
+    <string name="direction_horizontal">افقی</string>
+    <string name="direction_vertical">عمودی</string>
+    <string name="toast_slideshow_stopped">سلائیڈ شو روک دیا گیا</string>
+    <string name="toast_added_spacing">فاصلہ شامل کر دیا گیا</string>
+    <string name="toast_removed_spacing">فاصلہ ہٹا دیا گیا</string>
+    <string name="toast_page_number_field_empty">صفحہ نمبر فیلڈ خالی نہیں ہو سکتی</string>
+    <string name="toast_already_viewing_page">آپ پہلے ہی صفحہ %1$d دیکھ رہے ہیں!</string>
+    <string name="toast_navigated_to_page_number">صفحہ %1$d پر منتقل ہو گئے</string>
+    <string name="toast_page_number_must_be_between">صفحہ نمبر 1 اور %1$d کے درمیان ہونا چاہیے</string>
+    <string name="toast_please_enter_valid_number">براہ کرم ایک درست نمبر درج کریں</string>
+    <string name="toast_zoom_level_field_empty">زوم لیول فیلڈ خالی نہیں ہو سکتی</string>
+    <string name="toast_zoom_level_already_at">زوم لیول پہلے ہی %1$d%% پر ہے!</string>
+    <string name="toast_zoomed_to_percent">زوم کر دیا گیا %1$d%%</string>
+    <string name="toast_zoom_level_must_be_between">زوم لیول 50 اور 1000% کے درمیان ہونا چاہیے</string>
+    <string name="toast_slideshow_started">سلائیڈ شو شروع ہو گیا</string>
+    <string name="toast_duration_must_be_greater_than_zero">مدت 0 سے زیادہ ہونی چاہیے</string>
+    <string name="toast_reached_last_page">آخری صفحے پر پہنچ گئے</string>
+    <string name="toast_page_swipe_enabled">تیز صفحہ سوائپ فعال کر دیا گیا</string>
+    <string name="toast_page_swipe_disabled">تیز صفحہ سوائپ غیر فعال کر دیا گیا</string>
+    <string name="toast_page_alignment_enabled">صفحہ سیدھ میں لانا فعال کر دیا گیا</string>
+    <string name="toast_page_alignment_disabled">صفحہ سیدھ میں لانا غیر فعال کر دیا گیا</string>
+    <string name="toast_direction_reversed">سمت الٹ دی گئی</string>
+    <string name="toast_preparing_screenshot">اسکرینشاٹ تیار کر رہا ہے</string>
+
+    <string name="dialog_title_enter_page_number">صفحہ نمبر درج کریں:</string>
+    <string name="dialog_button_ok">ٹھیک ہے</string>
+    <string name="dialog_button_cancel">منسوخ کریں</string>
+    <string name="dialog_title_enter_zoom_level">زوم لیول درج کریں (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">سلائیڈ شو کی مدت درج کریں (سیکنڈ)</string>
+    <string name="dialog_button_start">شروع کریں</string>
+    <string name="dialog_title_enable_fast_page_swipe">تیز صفحہ سوائپ فعال کریں؟</string>
+    <string name="dialog_button_enable">فعال کریں</string>
+    <string name="dialog_button_disable">غیر فعال کریں</string>
+    <string name="dialog_title_enable_page_alignment">صفحہ سیدھ میں لانا فعال کریں؟</string>
+
+    <string name="dialog_message_fast_page_swipe">تیز صفحہ سوائپ آپ کو %1$s سوائپ کرکے صفحے تیزی سے پلٹنے دیتا ہے، جیسے کتاب کے صفحے پلٹنا۔ جب فعال ہو، ایک سوائپ آپ کو اگلے یا پچھلے صفحے پر لے جاتا ہے۔ یہ صفحوں پر حرکت کو تیز کرتا ہے، لیکن دیگر سوائپنگ کارروائیوں کو متاثر کر سکتا ہے۔\n\nکیا آپ تیز صفحہ سوائپ فعال کرنا چاہتے ہیں؟</string>
+    <string name="dialog_message_page_alignment">صفحہ سیدھ میں لانا یقینی بناتا ہے کہ %1$s سوائپ کرنے کے بعد ہر صفحہ مکمل طور پر مرکز میں ہو۔ جب فعال ہو، سوائپ بند کرنے پر صفحہ خود بخود درمیان میں آ جاتا ہے۔ یہ پڑھنا آسان بناتا ہے، لیکن تھوڑا کم ہموار لگ سکتا ہے۔\n\nکیا آپ صفحہ سیدھ میں لانا فعال کرنا چاہتے ہیں؟</string>
+
+    <string name="direction_horizontally">افقی طور پر</string>
+    <string name="direction_up_or_down">اوپر یا نیچے</string>
+
+</resources>

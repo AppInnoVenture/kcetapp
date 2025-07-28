@@ -1,0 +1,185 @@
+<resources>
+
+    <string name="nav_open">Navigation Drawer ತೆರೆಯೊಲೆ</string>
+    <string name="nav_close">Navigation Drawer ಮುಚ್ಚಿಲೆ</string>
+    <string name="nav_home">ಮೂಲ ಪುಟ</string>
+    <string name="nav_tg">ಎಂಕಲ್ನ ಟೆಲಿಗ್ರಾಮ್ ಗುಂಪು ಸೇರ್ಲೆ</string>
+    <string name="nav_tg2">ಎಂಕಲ್ನ ರಡ್ಡನೇ ಟೆಲಿಗ್ರಾಮ್ ಗುಂಪು ಸೇರ್ಲೆ</string>
+    <string name="nav_pucqp">Play Store ಡ್‌ PUC Question Papers ಆಪ್ ಪಡೆಯಿರೆ</string>
+  <string name="nav_share">ಅಪ್ಲಿಕೇಶನ್ ಪಾಲು ಮಾಲ್ಪುಲೆ</string>
+    <string name="nav_more">ನನಲಾ ಮಸ್ತ್ ಅಪ್ಲಿಕೇಶನ್‌ಲು</string>
+    <string name="nav_dark">ಕತ್ತಲೆ ಮೋಡ್‌ಗ್ ಬದಲಾವುಲೆ</string>
+    <string name="nav_delete">ಡೌನ್‌ಲೋಡ್ ಮಲ್ತಿನ ಮಾತಾ ಫೈಲ್ ದೆಪ್ಪೊಲೆ</string>
+    <string name="nav_privacy">ಗೌಪ್ಯತೆ ನೀತಿ</string>
+    <string name="nav_exit">ಅಪ್ಲಿಕೇಶನ್‌ಡ್ದ್ ಪಿದಾಯಿ ಪೋಲೆ</string>
+    <string name="nav_2puc">Play Store ಡ್‌ Second PUC Notes App ದೆತೊನೊಲೆ</string>
+    <string name="nav_1puc">Play Store ಡ್‌ First PUC ನೋಟ್ಸ್ ಆಪ್ ಪಡೆಯಿರೆ</string>
+    <string name="nav_kan">ಭಾಷೆ ಬದಲಾವುಲೆ</string>
+    <string name="nav_contact">ನಂಕ್ ಸಂಪರ್ಕ ಮಲ್ಪುಲೆ/ಸಲಹೆಲು</string>
+    <string name="nav_light">ಬೆಳಕುದ ಮೋಡ್‌ಗ್ ಬದಲಾವುಲೆ</string>
+
+    <string name="qpdf">ನೀವ್ ಈಗಲೇ ಪ್ರಶ್ನೆ ಕಾಗದೊನು ತೂವೊಂದಿತ್ತೆರ್</string>
+    <string name="apdf">ನೀವ್ ಈಗಲೇ ಕೀ ಉತ್ತರೊಲೆನ್ ತೂವೊಂದಿತ্তೆರ್</string>
+    <string name="waitt">ಡೌನ್‌ಲೋಡ್ ಆಪುನ ಮುಟ್ಟ ದಯಾದ್‌ದ್ ಕಾದುಪ್ಪಿ</string>
+    <string name="noNet">ವಿಷಯೊನು ಡೌನ್‌ಲೋಡ್ ಮಲ್ಪರೆ ಇಂಟರ್ನೆಟ್ ಸಕ್ರಿಯ ಮಲ್ಪುಲೆ</string>
+    <string name="noNetRetry">ವಿಷಯೊನು ಡೌನ್‌ಲೋಡ್ ಮಲ್ಪರೆ ಇಂಟರ್ನೆಟ್ ಸಕ್ರಿಯ ಮಲ್ಪುಲೆ ಅಂಚನೆ \'ಪಿರ ಪ್ರಯತ್ನ ಮಲ್ಪುಲೆ\' ಬಟನ್ ಒತ್ತೊಲೆ</string>
+    <string name="errr">ತಪ್ಪು ಆಂಡ್, ದಯಾದ್‌ದ್ ಎಂಕಲ್ನ ಟೆಲಿಗ್ರಾಮ್ ಗುಂಪುಡು ವರದಿ ಮಲ್ಪುಲೆ</string>
+<string name="errdwd">ವಿಷಯೊನು ಲೋಡ್ ಮಲ್ಪೆರೆ ಆಯಿಜಿ. ಪಿರ ಡೌನ್‌ಲೋಡ್ ಮಲ್ಪೆರೆ ಇಷ್ಟನಾ?</string>
+    <string name="noFiles">ದೆಪ್ಪೆರೆ ಡೌನ್‌ಲೋಡ್ ಮಲ್ತಿನ ಫೈಲ್‌ಲು ಒವ್ವುಲಾ ಇಜ್ಜಿ</string>
+    <string name="dwding">ಡೌನ್‌ಲೋಡ್ ಆವೊಂದುಂಡು&#8230; ದಯಾದ್‌ದ್ ಕಾದುಪ್ಪಿ</string>
+    <string name="dwdComp">ಡೌನ್‌ಲೋಡ್ ಮುಗಿಂಡ್</string>
+    <string name="lanShortcutToast">ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ಡ್ ಶಾರ್ಟ್‌ಕಟ್ ಮಲ್ಪೆರೆ \'ADD\' ಬಟನ್ ಒತ್ತೊಲೆ</string>
+    <string name="exitToast">ನಿಕ್ಲೆನ ಪರೀಕ್ಷೆಲೆಗ್ ಶುಭಾಶಯಲು!</string>
+<string name="dwdCancel">ಡೌನ್‌ಲೋಡ್ ರದ್ದು ಆಂಡ್</string>
+
+    <string name="alertTitle">ದೆಪ್ಪುನನ್ ಖಚಿತಪಡಿಸಲೆ</string>
+    <string name="alertMsg">ಡೌನ್‌ಲೋಡ್ ಮಲ್ತಿನ ಮಾತಾ ಫೈಲ್‌ಲೆನ್ ದೆಪ್ಪೊಡ್?</string>
+    <string name="alertLanMsg">ಡೌನ್‌ಲೋಡ್ ಮಲ್ತಿನ ಫೈಲ್‌ಲೆನ್ ದೆಪ್ಪೊಡ್?</string>
+    <string name="alertPositive">ರದ್ದು</string>
+<string name="alertNegative">ದೆಪ್ಪುಲೆ</string>
+    <string name="alertCancel">ದೆಪ್ಪುನ ಕಾರ್ಯಾಚರಣೆ ರದ್ದು ಮಲ್ತೆರ್</string>
+    <string name="alertDelete">ಸರಿಯಾದ್ ದೆತ್ತ್‌ದೆರ್</string>
+    <string name="alertRestore">ಸರಿಯಾದ್ ಪಿರ ದೆತ್ತೊಂಡೆರ್</string>
+
+    <string name="tab_qp">ಪ್ರಶ್ನೆ ಕಾಗದೊಲು</string>
+    <string name="tab_up">KCET ಅಪ್‌ಡೇಟ್‌ಲು</string>
+    <string name="tab_cutoff">ಕಟ್‌ಆಫ್</string>
+    <string name="tab_notes">ನೋಟ್ಸ್</string>
+    <string name="prcNote">ಗಮನೆ: ಪ್ರಾಕ್ಟಿಕಲ್ ಪರೀಕ್ಷೆ ಕೇವಲ ಕೃಷಿಕರ ಕೋಟಾದ ಅರ್ಹತೆ ಉಪ್ಪುನ ಅಭ್ಯರ್ಥಿಲೆಗ್ ಮಾತ್ರ ಅನ್ವಯೊಡು.\nಕನಿಷ್ಠ ಉತ್ತೀರ್ಣ ಮಾರ್ಕ್‌ಲು 200 ಡ್ 100 (50%).</string>
+    <string name="KanNote">ಗಮನೆ: ಕನ್ನಡ ಭಾಷಾ ಪರೀಕ್ಷೆ ಹೊರನಾಡು ಬೊಕ್ಕ ಗಡಿನಾಡು ಕನ್ನಡಿಗೆರೆಗ್ ಮಾತ್ರ (ಅರ್ಹತೆ ಖಂಡೊಲು c ಬೊಕ್ಕ d).\nಕನಿಷ್ಠ ಉತ್ತೀರ್ಣ ಮಾರ್ಕ್‌ಲು 50 ಡ್ 12.</string>
+    <string name="head_notes">ಪುನರಾವರ್ತನೆ ನೋಟ್ಸ್</string>
+    <string name="head_sol">ಉತ್ತರೊಲೆನೊಟ್ಟುಗು ಪ್ರಶ್ನೆ ಕಾಗದ</string>
+    
+
+    <string name="btn_qp">ಪ್ರಶ್ನೆ ಕಾಗದ</string>
+    <string name="btn_ans">ಕೀ ಉತ್ತರೊಲು</string>
+    
+    <string name="btn_spl">ಸ್ಪ್ಲಿಟ್‌ ಮೋಡ್</string>
+
+    <string name="lan_shortcut">ಶಾರ್ಟ್‌ಕಟ್ ಮಲ್ಪುಲೆ</string>
+    <string name="lan_delete">ಡೌನ್‌ಲೋಡ್ ಮಲ್ತಿನ ಫೈಲ್‌ಲೆನ್ ದೆಪ್ಪುಲೆ</string>
+
+    <string name="snack_retry">ಪಿರ ಪ್ರಯತ್ನ ಮಲ್ಪುಲೆ</string>
+    <string name="snack_undo">ರದ್ದು ಮಲ್ಪುಲೆ</string>
+    <string name="snack_yes">ಅಂದ್</string>
+
+<!--   recycler items -->
+    <string name="phy">ಭೌತಶಾಸ್ತ್ರ</string>
+    <string name="che">ರಸಾಯನಶಾಸ್ತ್ರ</string>
+    <string name="bio">ಜೀವಶಾಸ್ತ್ರ</string>
+    <string name="mat">ಗಣಿತ</string>
+    <string name="kan">ಕನ್ನಡ</string>
+    <string name="vetno">ಕೃಷಿ/ಪಶುವೈದ್ಯಕೀಯ ಪ್ರಾಯೋಗಿಕ</string>
+ 
+    <string name="mbbs">ವೈದ್ಯಕೀಯ</string>
+    <string name="engg">ಇಂಜಿನಿಯರಿಂಗ್</string>
+    <string name="vet">ಪಶುವೈದ್ಯಕೀಯ</string>
+    <string name="agri">ಕೃಷಿ</string>
+    <string name="bds">ದಂತವೈದ್ಯಕೀಯ</string>
+    <string name="ayu">ಆಯುಷ್</string>
+    <string name="phar">ಔಷಧಶಾಸ್ತ್ರ</string>
+    <string name="arch">ವಾಸ್ತುಶಿಲ್ಪ</string>
+    <string name="bnys">BNYS</string>
+    <string name="nurs">ನರ್ಸಿಂಗ್</string>
+    <string name="ahs">B. Sc - AHS</string>
+    
+    <string name="up_kcet">KCET ೨೦೨೫ ಮಾಹಿತಿ</string>
+    <string name="up_prac">KCET ೨೦೨೫ ಪ್ರಾಯೋಗಿಕ ಪರೀಕ್ಷಾ ಮಾಹಿತಿ</string>
+    <string name="up_info">KCET ೨೦೨೫ ಮಾಹಿತಿ ಪುಸ್ತಕ</string>
+    <string name="up_rank">KCET ಶ್ರೇಯಾಂಕ ನಿರ್ಧರಿಸುವ ಮಾನದಂಡಗಳು</string>
+
+    <string name="up_info_pdf">infok.pdf</string>
+    <string name="up_kcet_pdf">kcetk.pdf</string>
+    <string name="up_prac_pdf">prack.pdf</string>
+    <string name="up_rank_pdf">rankk.pdf</string>
+
+<string name="already_latest_updates">ಈಗಾಗಲೇ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ತೂವೊಂದುಲ್ಲೆರ್</string>
+<string name="refresh_successful">ಯಶಸ್ವಿಯಾದ್ ರಿಫ್ರೆಶ್ ಮಲ್ತ್‌ದೆರ್</string>
+<string name="error_no_internet_refresh">ರಿಫ್ರೆಶ್ ಮಲ್ಪರೆ ದಯಾದ್ ಇಂಟರ್ನೆಟ್ ಸಕ್ರಿಯ ಮಲ್ಪುಲೆ</string>
+<string name="opening_browser_chooser">"ಈ ಲಿಂಕ್ ನಿಮ್ಮ ಸಾಧನದ ಡೀಫಾಲ್ಟ್ ವೆಬ್ ಬ್ರೌಸರ್‍ಡ್ ತೆರೆಯುವಾ"</string>
+<string name="last_updated">ಕಡೆತ್ತ ಅಪ್‌ಡೇಟ್: %1$s</string>
+
+    <string name="thankk">ಎಡ್ಡೆಪುಲು</string>
+    <string name="donationn">ಬೋಡಾಯಿನ ಸಂಪನ್ಮೂಲೊಲೆನ್ ಸಂಗ್ರಹ ಮಲ್ಪೆರೆ ಬೊಕ್ಕ ಒಂಜಿ ಅಪ್ಲಿಕೇಶನ್ ಮಲ್ಪೆರೆ ಮಸ್ತ್ ದಿನ ಬೋಡಾಪುಂಡು. ನಿಕ್ಲೆನ ಎಲ್ಯ ದಾನ (₹10ಲಾ) ಸರ್ವರ್ ಖರ್ಚುಲೆನ್ ನಿಭಾಯೆರೆ ನಂಕ್ ಸಹಾಯ ಮಲ್ಪುಂಡು. ಈ ಅಪ್ಲಿಕೇಶನ್ ನಿಕ್ಲೆಗ್ ಸಹಾಯ ಮಲ್ತ್ಂಡ, ನಿಕ್ಲೆನ ಇಷ್ಟದ ಒವ್ವೆ ಮೊತ್ತೊನು ದಾನ ಮಲ್ಪೆರೆ ಆಲೋಚನೆ ಮಲ್ಪುಲೆ.\nನಿಕ್ಲೆನ ಬೆಂಬಲೊಗು ದುಂಬೆ ಎಡ್ಡೆಪ್ಪುನಂಚಿ!</string>
+
+
+    <string name="menu_go_to_first_page">ಸುರುತ ಪುಟೊಕ್ಕು ಪೋಲೆ</string>
+    <string name="menu_go_to_last_page">ಕಡೆತ್ತ ಪುಟೊಕ್ಕು ಪೋಲೆ</string>
+    <string name="menu_jump_to_page">ಪುಟೊಕ್ಕು ಪೋಲೆ&#8230;</string>
+    <string name="menu_toggle_auto_scroll">ಆಟೋ ಸ್ಕ್ರಾಲ್</string>
+    <string name="menu_toggle_slideshow_start">ಸ್ಲೈಡ್‌ಶೋ ಸುರು ಮಲ್ಪುಲೆ</string>
+    <string name="menu_toggle_slideshow_stop">ಸ್ಲೈಡ್‌ಶೋ ಉಂತಾವುಲೆ</string>
+    <string name="menu_toggle_night_mode_to_light">ಬೆಳಕುದ ಮೋಡ್‌ಗ್ ಬದಲಾವುಲೆ</string>
+    <string name="menu_toggle_night_mode_to_dark">ಕತ್ತಲೆ ಮೋಡ್‌ಗ್ ಬದಲಾವುಲೆ</string>
+    <string name="menu_toggle_fullscreen">ಪೂರ್ಣ ಸ್ಕ್ರೀನ್ ಮೋಡ್</string>
+    <string name="menu_share_screenshot">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪಾಲು ಮಲ್ಪುಲೆ</string>
+    <string name="menu_zoom_to">ಝೂಮ್ ಮಲ್ಪುಲೆ</string>
+    <string name="menu_toggle_rotation_lock_lock">ಸ್ಕ್ರೀನ್ ತಿರ್ಗುನನ್ ಲಾಕ್ ಮಲ್ಪುಲೆ</string>
+    <string name="menu_toggle_rotation_lock_unlock">ಸ್ಕ್ರೀನ್ ತಿರ್ಗುನನ್ ಅನ್ಲಾಕ್ ಮಲ್ಪುಲೆ</string>
+    <string name="menu_rotate_clockwise">ಗಡಿಯಾರೊದಂಚ ತಿರ್ಗುಲೆ</string>
+    <string name="menu_rotate_anticlockwise">ಗಡಿಯಾರೊದ ವಿರುದ್ದ ದಿಕ್ಕಿಡ್ ತಿರ್ಗುಲೆ</string>
+    <string name="menu_toggle_volume_buttons_enable">ವಾಲ್ಯೂಮ್ ಕೀ ಸ್ಕ್ರಾಲ್ ಸಕ್ರಿಯ ಮಲ್ಪುಲೆ</string>
+    <string name="menu_toggle_volume_buttons_disable">ವಾಲ್ಯೂಮ್ ಕೀ ಸ್ಕ್ರಾಲ್ ನಿಷ್ಕ್ರಿಯ ಮಲ್ಪುಲೆ</string>
+    <string name="menu_swipe_horizontal_to_vertical">ಲಂಬವಾದ್ ಸ್ವೈಪ್ ಮಲ್ಪುಲೆ</string>
+    <string name="menu_swipe_horizontal_to_horizontal">ಅಡ್ಡವಾದ್ ಸ್ವೈಪ್ ಮಲ್ಪುಲೆ</string>
+    <string name="menu_toggle_spacing_add">ಅಂತರೊನು ಸೇರಿಸಲೆ</string>
+    <string name="menu_toggle_spacing_remove">ಅಂತರೊನು ದೆಪ್ಪೊಲೆ</string>
+    <string name="menu_page_fling">ವೇಗೊದ ಪುಟ ಸ್ವೈಪ್</string>
+    <string name="menu_page_snap">ಪುಟ ಜೋಡಣೆ</string>
+    <string name="menu_exit">ಅಪ್ಲಿಕೇಶನ್‌ಡ್ದ್ ಪಿದಾಯಿ ಪೋಲೆ</string>
+
+    <string name="toast_auto_scroll_layout_closed">ಆಟೋ ಸ್ಕ್ರಾಲ್ ಲೇಔಟ್ ಮುಚ್ಚಿದೆರ್</string>
+    <string name="toast_rotated_clockwise">ಗಡಿಯಾರೊದಂಚ ತಿರ್ಗಾಯೆರ್</string>
+    <string name="toast_rotated_anticlockwise">ಗಡಿಯಾರೊದ ವಿರುದ್ದ ದಿಕ್ಕಿಡ್ ತಿರ್ಗಾಯೆರ್</string>
+    <string name="toast_locked_screen_rotation">ಸ್ಕ್ರೀನ್ ತಿರ್ಗುನನ್ ಲಾಕ್ ಮಲ್ತ್‌ದೆರ್</string>
+    <string name="toast_unlocked_screen_rotation">ಸ್ಕ್ರೀನ್ ತಿರ್ಗುನನ್ ಅನ್ಲಾಕ್ ಮಲ್ತ್‌ದೆರ್</string>
+    <string name="toast_volume_button_scroll_enabled_state">ವಾಲ್ಯೂಮ್ ಬಟನ್ ಸ್ಕ್ರಾಲ್ %1$s</string>
+    <string name="state_enabled">ಸಕ್ರಿಯ</string>
+    <string name="state_disabled">ನಿಷ್ಕ್ರಿಯ</string>
+    <string name="toast_already_on_last_page">ಇತ್ತೆನೆ ಕಡೆತ್ತ ಪುಟೊಡು ಉಲ್ಲೆರ್</string>
+    <string name="toast_navigated_to_last_page">ಕಡೆತ್ತ ಪುಟೊಕ್ಕು ಪೋತೆರ್</string>
+    <string name="toast_already_on_first_page">ಇತ್ತೆನೆ ಸುರುತ ಪುಟೊಡು ಉಲ್ಲೆರ್</string>
+    <string name="toast_navigated_to_first_page">ಸುರುತ ಪುಟೊಕ್ಕು ಪೋತೆರ್</string>
+    <string name="toast_swipe_direction_enabled">%1$s ಸ್ವೈಪ್ ಸಕ್ರಿಯ</string>
+    <string name="direction_horizontal">ಅಡ್ಡ</string>
+    <string name="direction_vertical">ಲಂಬ</string>
+    <string name="toast_slideshow_stopped">ಸ್ಲೈಡ್‌ಶೋ ಉಂತಾದೆರ್</string>
+    <string name="toast_added_spacing">ಅಂತರೊನು ಸೇರಿಸಿದೆರ್</string>
+    <string name="toast_removed_spacing">ಅಂತರೊನು ದೆತ್ತೆರ್</string>
+    <string name="toast_page_number_field_empty">ಪುಟ ಸಂಖ್ಯೆ ಕಾಲಿನುಪ್ಪೆರೆ ಬಲ್ಲಿ</string>
+    <string name="toast_already_viewing_page">ಈರ್ ಇತ್ತೆನೆ ಪುಟ %1$d ತೂವೊಂದುಲ್ಲೆರ್!</string>
+    <string name="toast_navigated_to_page_number">ಪುಟ %1$d ಕ್ ಪೋತೆರ್</string>
+    <string name="toast_page_number_must_be_between">ಪುಟ ಸಂಖ್ಯೆ 1 ಬೊಕ್ಕ %1$d ನಡುಟು ಇಪ್ಪೊಡು</string>
+    <string name="toast_please_enter_valid_number">ದಯಾದ್‌ದ್ ಒಂಜಿ ಸರಿ ನಂಬರ್ ಪಾಡ್ಲೆ</string>
+    <string name="toast_zoom_level_field_empty">ಝೂಮ್ ಮಟ್ಟ ಕಾಲಿನುಪ್ಪೆರೆ ಬಲ್ಲಿ</string>
+    <string name="toast_zoom_level_already_at">ಝೂಮ್ ಮಟ್ಟ ಇತ್ತೆನೆ %1$d%% ಡ್ ಉಂಡು!</string>
+    <string name="toast_zoomed_to_percent">%1$d%% ಗ್ ಝೂಮ್ ಮಲ್ತೆರ್</string>
+    <string name="toast_zoom_level_must_be_between">ಝೂಮ್ ಮಟ್ಟ 50 ಬೊಕ್ಕ 1000% ನಡುಟು ಇಪ್ಪೊಡು</string>
+    <string name="toast_slideshow_started">ಸ್ಲೈಡ್‌ಶೋ ಸುರು ಆಂಡ್</string>
+    <string name="toast_duration_must_be_greater_than_zero">ಅವಧಿ 0 ಡ್ದ್ ಜಾಸ್ತಿ ಇಪ್ಪೊಡು</string>
+    <string name="toast_reached_last_page">ಕಡೆತ್ತ ಪುಟೊಕ್ಕು ಸೇರಿದೆರ್</string>
+    <string name="toast_page_swipe_enabled">ವೇಗೊದ ಪುಟ ಸ್ವೈಪ್ ಸಕ್ರಿಯ ಆಂಡ್</string>
+    <string name="toast_page_swipe_disabled">ವೇಗೊದ ಪುಟ ಸ್ವೈಪ್ ನಿಷ್ಕ್ರಿಯ ಆಂಡ್</string>
+    <string name="toast_page_alignment_enabled">ಪುಟ ಜೋಡಣೆ ಸಕ್ರಿಯ ಆಂಡ್</string>
+    <string name="toast_page_alignment_disabled">ಪುಟ ಜೋಡಣೆ ನಿಷ್ಕ್ರಿಯ ಆಂಡ್</string>
+    <string name="toast_direction_reversed">ದಿಕ್ಕು ಪಿರ ತಿರ್ಗಾಂಡ್</string>
+    <string name="toast_preparing_screenshot">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತಯಾರ್ ಆವೊಂದುಂಡು&#8230;</string>
+
+    <string name="dialog_title_enter_page_number">ಪುಟ ಸಂಖ್ಯೆ ಪಾಡ್ಲೆ:</string>
+    <string name="dialog_button_ok">ಸರಿ</string>
+    <string name="dialog_button_cancel">ರದ್ದು ಮಲ್ಪುಲೆ</string>
+    <string name="dialog_title_enter_zoom_level">ಝೂಮ್ ಮಟ್ಟ ಪಾಡ್ಲೆ (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">ಸ್ಲೈಡ್‌ಶೋ ಅವಧಿ ಪಾಡ್ಲೆ (ಸೆಕೆಂಡ್‌ಲು)</string>
+    <string name="dialog_button_start">ಸುರು ಮಲ್ಪುಲೆ</string>
+    <string name="dialog_title_enable_fast_page_swipe">ವೇಗೊದ ಪುಟ ಸ್ವೈಪ್ ಸಕ್ರಿಯ ಮಲ್ಪೊಡಾ?</string>
+    <string name="dialog_button_enable">ಸಕ್ರಿಯ ಮಲ್ಪುಲೆ</string>
+    <string name="dialog_button_disable">ನಿಷ್ಕ್ರಿಯ ಮಲ್ಪುಲೆ</string>
+    <string name="dialog_title_enable_page_alignment">ಪುಟ ಜೋಡಣೆ ಸಕ್ರಿಯ ಮಲ್ಪೊಡಾ?</string>
+
+    <string name="dialog_message_fast_page_swipe">Fast Page Swipe ಪುಸ್ತಕದ ಪುಟಲೆನ್ ತಿರ್ಗಾವುನಂಚ, %1$s ಸ್ವೈಪ್ ಮಲ್ತ್‌ದ್ ಪುಟಲೆನ್ ಬಾರೀ ಬೇಗ ತಿರ್ಗಾವುನ ಅವಕಾಶ ಕೊರ್ಪುಂಡು. ಉಂದು ಆನ್ ಆಂಡ, ಒಂಜಿ ಸ್ವೈಪ್ ನಿಕ್ಲೆನ್ ದುಂಬುದ ಅತ್ತ್ಂಡ ಪಿರವುದ ಪುಟೊಕ್ಕು ಲೆತ್ತೊಂದು ಪೋಪುಂಡು. ಉಂದು ಪುಟಲೆನ ನಡುಟು ಬೇಗ ಪೋಯೆರೆ ಸಹಾಯ ಮಲ್ಪುಂಡು, ಆಂಡ ಬೇತೆ ಸ್ವೈಪಿಂಗ್ ಕೆಲಸೊಲೆನ್ ಪರಿಣಾಮ ಮಲ್ಪೊಲಿ.\n\nಈರ್ Fast Page Swipe ಸಕ್ರಿಯ ಮಲ್ಪೆರೆ ಇಷ್ಟನಾ?</string>
+    <string name="dialog_message_page_alignment">Page Alignment ಈರ್ %1$s ಸ್ವೈಪ್ ಮಲ್ತಿನ ಬೊಕ್ಕ ಒವ್ವೆ ಪುಟಲಾ ಪೂರ್ತಿಯಾದ್ ನಡುಟು ಉಂಡು ಪಂದ್ ಖಚಿತ ಮಲ್ಪುಂಡು. ಉಂದು ಆನ್ ಆಂಡ, ಈರ್ ಸ್ವೈಪ್ ಮಲ್ಪುನನ್ ಉಂತಾಯಿನ ಒರ ಅಂಚನೆ ಪುಟ ತನ್ನಾತೆಗೆ ನಡುಟು ಕುಲ್ಲ್‌ದ್ ಅಟ್ಟಾವುಂಡು. ಉಂದು ಓದುನನ್ ಸುಲಭ ಮಲ್ಪುಂಡು, ಆಂಡ ಒಂತೆ ಸಲೀಸಾದ್ ಇಜ್ಜಿ ಪಂಡ್ದ್ ತೋಜೊಲಿ.\n\nಈರ್ Page Alignment ಸಕ್ರಿಯ ಮಲ್ಪೆರೆ ಇಷ್ಟನಾ?</string>
+
+    <string name="direction_horizontally">ಅಡ್ಡವಾದ್</string>
+    <string name="direction_up_or_down">ಮಿತ್ತ್ ಅತ್ತ್ಂಡ ತಿರ್ತ್</string>
+
+</resources>

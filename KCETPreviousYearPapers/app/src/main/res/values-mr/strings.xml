@@ -1,0 +1,183 @@
+<resources>
+    
+    <!-- Additions -->
+    <string name="tab_cutoff">कटऑफ</string>
+    <string name="tab_notes">नोट्स</string>
+    <string name="prcNote">नोट: प्रॅक्टिकल परीक्षा फक्त त्या उमेदवारांसाठी लागू आहे जे कृषी कोट्यासाठी पात्र आहेत.\nकिमान उत्तीर्ण गुण 200 पैकी 100 (50%) आहेत.</string>
+    <string name="KanNote">नोट: कन्नड भाषा परीक्षा फक्त होरनाडू आणि गडिनाडू कन्नड उमेदवारांसाठी आहे (पात्रता कलम c आणि d).\nकिमान उत्तीर्ण गुण 50 पैकी 12 आहेत.</string>
+    <string name="head_notes">पुनरावृत्ती नोट्स</string>
+    <string name="head_sol">उत्तरांसह प्रश्नपत्रिका</string>
+    <string name="nav_pucqp">प्ले स्टोअरवर PUC प्रश्नपत्रिका अॅप मिळवा</string>
+    <string name="phy">भौतिकशास्त्र</string>
+    <string name="che">रसायनशास्त्र</string>
+    <string name="bio">जीवशास्त्र</string>
+    <string name="mat">गणित</string>
+    <string name="kan">कन्नड</string>
+    <string name="vetno">कृषी/पशुवैद्यकीय प्रॅक्टिकल</string>
+    <string name="mbbs">एमबीबीएस</string>
+    <string name="engg">अभियांत्रिकी</string>
+    <string name="vet">पशुवैद्यकीय</string>
+    <string name="agri">कृषी</string>
+    <string name="bds">दंतचिकित्सा</string>
+    <string name="ayu">आयुष</string>
+    <string name="phar">औषधशास्त्र</string>
+    <string name="arch">वास्तुशिल्प</string>
+    <string name="bnys">बीएनवायएस</string>
+    <string name="nurs">नर्सिंग</string>
+    <string name="ahs">बी.एस्सी - एएचएस</string>
+    <string name="up_kcet">KCET 2025 अद्यतन</string>
+    <string name="up_prac">KCET 2025 प्रॅक्टिकल परीक्षा अद्यतन</string>
+    <string name="up_info">KCET 2025 माहिती बुलेटिन</string>
+    <string name="up_rank">KCET रँक निर्धारण निकष</string>
+    <string name="up_info_pdf">info.pdf</string>
+    <string name="up_kcet_pdf">kcet.pdf</string>
+    <string name="up_prac_pdf">prac.pdf</string>
+    <string name="up_rank_pdf">rank.pdf</string>
+
+
+    <string name="nav_open">Navigation Drawer उघडा</string>
+    <string name="nav_close">Navigation Drawer बंद करा</string>
+    <string name="nav_home">मुख्यपृष्ठ</string>
+    <string name="nav_tg">आमच्या Telegram ग्रुपमध्ये सामील व्हा</string>
+    <string name="nav_tg2">आमच्या Telegram ग्रुप 2 मध्ये सामील व्हा</string>
+    <string name="nav_share">ॲप शेअर करा</string>
+    <string name="nav_more">अधिक ॲप्स</string>
+    <string name="nav_dark">डार्क मोडवर स्विच करा</string>
+    <string name="nav_delete">डाउनलोड केलेल्या सर्व फाईल्स हटवा</string>
+    <string name="nav_privacy">गोपनीयता धोरण</string>
+    <string name="nav_exit">ॲपमधून बाहेर पडा</string>
+    <string name="nav_2puc">Play Store वर Second PUC Notes App मिळवा</string>
+    <string name="nav_1puc">प्ले स्टोअरवर प्रथम पीयूसी नोट्स अॅप मिळवा</string>
+    <string name="nav_kan">भाषा बदला</string>
+    <string name="nav_contact">आमच्याशी संपर्क साधा/सूचना</string>
+    <string name="nav_light">लाईट मोडवर स्विच करा</string>
+
+    <string name="qpdf">आपण आधीच प्रश्नपत्रिका पाहत आहात</string>
+    <string name="apdf">आपण आधीच उत्तर की पाहत आहात</string>
+    <string name="waitt">कृपया डाउनलोड पूर्ण होईपर्यंत थांबा</string>
+    <string name="noNet">सामग्री डाउनलोड करण्यासाठी इंटरनेट सक्षम करा</string>
+    <string name="noNetRetry">सामग्री डाउनलोड करण्यासाठी इंटरनेट सक्षम करा आणि \'पुन्हा प्रयत्न करा\' बटण वर क्लिक करा</string>
+    <string name="errr">त्रुटी झाली, कृपया आमच्या Telegram ग्रुपमध्ये तक्रार करा</string>
+    <string name="errdwd">सामग्री लोड करण्यात अयशस्वी. आपण ते पुन्हा डाउनलोड करू इच्छिता?</string>
+    <string name="noFiles">हटवण्यासाठी डाउनलोड केलेल्या फाईल्स उपलब्ध नाहीत</string>
+    <string name="dwding">डाउनलोड होत आहे&#8230; कृपया प्रतीक्षा करा</string>
+    <string name="dwdComp">डाउनलोड पूर्ण झाले</string>
+    <string name="lanShortcutToast">होम स्क्रीनवर शॉर्टकट तयार करण्यासाठी \'ADD\' बटण वर क्लिक करा</string>
+    <string name="exitToast">तुमच्या परीक्षांसाठी खूप खूप शुभेच्छा!</string>
+<string name="dwdCancel">डाउनलोड रद्द झाले</string>
+
+    <string name="alertTitle">हटवण्याची पुष्टी करा</string>
+    <string name="alertMsg">डाउनलोड केलेल्या सर्व फाईल्स हटवायच्या?</string>
+    <string name="alertLanMsg">डाउनलोड केलेल्या फाईल्स हटवायच्या?</string>
+    <string name="alertPositive">रद्द करा</string>
+    <string name="alertNegative">हटवा</string>
+    <string name="alertCancel">हटवण्याची प्रक्रिया रद्द केली</string>
+    <string name="alertDelete">यशस्वीरित्या हटवले</string>
+    <string name="alertRestore">यशस्वीरित्या पुनर्संचयित केले</string>
+
+    <string name="tab_qp">प्रश्नपत्रिका</string>
+    <string name="tab_up">KCET अद्यतने</string>
+
+    <string name="btn_qp">प्रश्नपत्रिका</string>
+    <string name="btn_ans">उत्तर की</string>
+    
+    <string name="btn_spl">विभाजित स्क्रीन</string>
+
+    <string name="lan_shortcut">शॉर्टकट तयार करा</string>
+    <string name="lan_delete">डाउनलोड केलेल्या फाईल्स हटवा</string>
+
+    <string name="snack_retry">पुन्हा प्रयत्न करा</string>
+    <string name="snack_undo">पूर्ववत करा</string>
+    <string name="snack_yes">होय</string>
+
+<string name="already_latest_updates">आपण आधीच नवीनतम अद्यतने पहात आहात</string>
+<string name="refresh_successful">यशस्वीरित्या रीफ्रेश केले</string>
+<string name="error_no_internet_refresh">रीफ्रेश करण्यासाठी कृपया इंटरनेट चालू करा</string>
+<string name="opening_browser_chooser">"ही लिंक तुमच्या डिव्हाइसच्या डीफॉल्ट वेब ब्राउझरमध्ये उघडेल"</string>
+<string name="last_updated">शेवटचे अद्यतनित: %1$s</string>
+
+ <string name="thankk">धन्यवाद</string>
+    <string name="donationn">आवश्यक संसाधने गोळा करण्यासाठी आणि ॲप तयार करण्यासाठी अनेक दिवस लागतात. तुमची छोटी देणगी (₹10 देखील) आम्हाला सर्व्हर खर्च भरण्यास मदत करते. जर या ॲपने तुम्हाला मदत केली असेल, तर कृपया तुम्हाला हवी असलेली कोणतीही रक्कम दान करण्याचा विचार करा.\nतुमच्या समर्थनासाठी आगाऊ धन्यवाद!</string>
+
+
+  
+    <string name="menu_go_to_first_page">पहिल्या पानावर जा</string>
+    <string name="menu_go_to_last_page">शेवटच्या पानावर जा</string>
+    <string name="menu_jump_to_page">पानावर जा&#8230;</string>
+    <string name="menu_toggle_auto_scroll">ऑटो स्क्रोल</string>
+    <string name="menu_toggle_slideshow_start">स्लाइडशो सुरू करा</string>
+    <string name="menu_toggle_slideshow_stop">स्लाइडशो थांबवा</string>
+    <string name="menu_toggle_night_mode_to_light">लाईट मोडवर स्विच करा</string>
+    <string name="menu_toggle_night_mode_to_dark">डार्क मोडवर स्विच करा</string>
+    <string name="menu_toggle_fullscreen">पूर्ण स्क्रीन मोड</string>
+    <string name="menu_share_screenshot">स्क्रीनशॉट शेअर करा</string>
+    <string name="menu_zoom_to">झूम करा</string>
+    <string name="menu_toggle_rotation_lock_lock">स्क्रीन रोटेशन लॉक करा</string>
+    <string name="menu_toggle_rotation_lock_unlock">स्क्रीन रोटेशन अनलॉक करा</string>
+    <string name="menu_rotate_clockwise">घड्याळाच्या दिशेने फिरवा</string>
+    <string name="menu_rotate_anticlockwise">घड्याळाच्या विरुद्ध दिशेने फिरवा</string>
+    <string name="menu_toggle_volume_buttons_enable">वॉल्यूम की स्क्रोल सक्षम करा</string>
+    <string name="menu_toggle_volume_buttons_disable">वॉल्यूम की स्क्रोल अक्षम करा</string>
+    <string name="menu_swipe_horizontal_to_vertical">उभ्या स्क्रोल करा</string>
+    <string name="menu_swipe_horizontal_to_horizontal">आडव्या स्क्रोल करा</string>
+    <string name="menu_toggle_spacing_add">अंतर जोडा</string>
+    <string name="menu_toggle_spacing_remove">अंतर काढा</string>
+    <string name="menu_page_fling">जलद पृष्ठ स्वाइप</string>
+    <string name="menu_page_snap">पृष्ठ संरेखन</string>
+    <string name="menu_exit">ॲपमधून बाहेर पडा</string>
+
+    <string name="toast_auto_scroll_layout_closed">ऑटो स्क्रोल लेआउट बंद केले</string>
+    <string name="toast_rotated_clockwise">घड्याळाच्या दिशेने फिरवले</string>
+    <string name="toast_rotated_anticlockwise">घड्याळाच्या विरुद्ध दिशेने फिरवले</string>
+    <string name="toast_locked_screen_rotation">स्क्रीन रोटेशन लॉक केले</string>
+    <string name="toast_unlocked_screen_rotation">स्क्रीन रोटेशन अनलॉक केले</string>
+    <string name="toast_volume_button_scroll_enabled_state">वॉल्यूम बटण स्क्रोल %1$s</string>
+    <string name="state_enabled">सक्षम केले</string>
+    <string name="state_disabled">अक्षम केले</string>
+    <string name="toast_already_on_last_page">आधीच शेवटच्या पानावर आहात</string>
+    <string name="toast_navigated_to_last_page">शेवटच्या पानावर नेव्हिगेट केले</string>
+    <string name="toast_already_on_first_page">आधीच पहिल्या पानावर आहात</string>
+    <string name="toast_navigated_to_first_page">पहिल्या पानावर नेव्हिगेट केले</string>
+    <string name="toast_swipe_direction_enabled">%1$s स्वाइप सक्षम केले</string>
+    <string name="direction_horizontal">क्षैतिज</string>
+    <string name="direction_vertical">उभ्या</string>
+    <string name="toast_slideshow_stopped">स्लाइडशो थांबवले</string>
+    <string name="toast_added_spacing">अंतर जोडले</string>
+    <string name="toast_removed_spacing">अंतर काढले</string>
+    <string name="toast_page_number_field_empty">पृष्ठ क्रमांक क्षेत्र रिकामे असू शकत नाही</string>
+    <string name="toast_already_viewing_page">आपण आधीच पृष्ठ %1$d पाहत आहात!</string>
+    <string name="toast_navigated_to_page_number">पृष्ठ %1$d वर नेव्हिगेट केले</string>
+    <string name="toast_page_number_must_be_between">पृष्ठ क्रमांक 1 आणि %1$d दरम्यान असावा</string>
+    <string name="toast_please_enter_valid_number">कृपया वैध क्रमांक प्रविष्ट करा</string>
+    <string name="toast_zoom_level_field_empty">झूम लेव्हल क्षेत्र रिकामे असू शकत नाही</string>
+    <string name="toast_zoom_level_already_at">झूम लेव्हल आधीच %1$d%% वर आहे!</string>
+    <string name="toast_zoomed_to_percent">%1$d%% पर्यंत झूम केले</string>
+    <string name="toast_zoom_level_must_be_between">झूम लेव्हल 50 ते 1000% दरम्यान असावा</string>
+    <string name="toast_slideshow_started">स्लाइडशो सुरू झाले</string>
+    <string name="toast_duration_must_be_greater_than_zero">कालावधी 0 पेक्षा जास्त असावा</string>
+    <string name="toast_reached_last_page">शेवटच्या पानावर पोहोचले</string>
+    <string name="toast_page_swipe_enabled">जलद पृष्ठ स्वाइप सक्षम केले</string>
+    <string name="toast_page_swipe_disabled">जलद पृष्ठ स्वाइप अक्षम केले</string>
+    <string name="toast_page_alignment_enabled">पृष्ठ संरेखन सक्षम केले</string>
+    <string name="toast_page_alignment_disabled">पृष्ठ संरेखन अक्षम केले</string>
+    <string name="toast_direction_reversed">दिशा उलटली</string>
+    <string name="toast_preparing_screenshot">स्क्रीनशॉट तयार करत आहे…</string>
+
+    <string name="dialog_title_enter_page_number">पृष्ठ क्रमांक प्रविष्ट करा:</string>
+    <string name="dialog_button_ok">ओके</string>
+    <string name="dialog_button_cancel">रद्द करा</string>
+    <string name="dialog_title_enter_zoom_level">झूम लेव्हल प्रविष्ट करा (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">स्लाइडशो कालावधी प्रविष्ट करा (सेकंद)</string>
+    <string name="dialog_button_start">सुरू करा</string>
+    <string name="dialog_title_enable_fast_page_swipe">जलद पृष्ठ स्वाइप सक्षम करायचे?</string>
+    <string name="dialog_button_enable">सक्षम करा</string>
+    <string name="dialog_button_disable">अक्षम करा</string>
+    <string name="dialog_title_enable_page_alignment">पृष्ठ संरेखन सक्षम करायचे?</string>
+
+    <string name="dialog_message_fast_page_swipe">फास्ट पेज स्वाइप तुम्हाला %1$s स्वाइप करून पाने पुस्तकाप्रमाणे वेगाने पलटण्याची परवानगी देते. सक्षम केल्यावर, एक स्वाइप तुम्हाला पुढील किंवा मागील पानावर नेते. हे पानांमधून फिरणे जलद करते, पण इतर स्वाइप क्रिया प्रभावित होऊ शकतात.\n\nतुम्ही फास्ट पेज स्वाइप सक्षम करू इच्छिता?</string>
+    <string name="dialog_message_page_alignment">पेज संरेखन हे सुनिश्चित करते की %1$s स्वाइप केल्यानंतर प्रत्येक पृष्ठ मध्यभागी आहे. सक्षम केल्यावर, स्वाइप थांबवल्यास पृष्ठ आपोआप मध्यभागी स्थिरावते. यामुळे वाचन सोपे होते, पण ते थोडे कमी सुरळीत वाटू शकते.\n\nतुम्ही पेज संरेखन सक्षम करू इच्छिता?</string>
+
+    <string name="direction_horizontally">आडव्या</string>
+    <string name="direction_up_or_down">वर किंवा खाली</string>
+
+</resources>

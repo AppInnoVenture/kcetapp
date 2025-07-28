@@ -16,8 +16,9 @@
     <string name="nav_exit">Exit App</string>
     <string name="nav_1puc">Get First PUC Notes App on Play Store</string>
     <string name="nav_pucqp">Get PUC Question Papers App on Play Store</string>
-    <string name="nav_kan">Switch to Kannada Language</string>
+    <string name="nav_kan">Change Language</string>
 <string name="nav_contact">Contact Us/Suggestions</string>
+    <string name="nav_light">Switch to Light Mode</string>
 
     <!--   toast messages -->
     <string name="qpdf">You are already viewing the Question Paper</string>
@@ -33,6 +34,7 @@
     <string name="dwdComp">Download Completed</string>
     <string name="lanShortcutToast">Tap the \'ADD\' button to create a shortcut on the home screen</string>
     <string name="exitToast" translatable="false">All the Best for your Exams!</string>
+<string name="dwdCancel">Download Cancelled</string>
 
     <string name="alertTitle">Confirm Deletion</string>
     <string name="alertMsg">Delete all downloaded files?</string>
@@ -96,6 +98,12 @@
     <string name="up_kcet_pdf">kcet.pdf</string>
     <string name="up_prac_pdf">prac.pdf</string>
     <string name="up_rank_pdf">rank.pdf</string>
+
+<string name="already_latest_updates">You are already viewing the latest updates</string>
+<string name="refresh_successful">Refreshed successfully</string>
+<string name="error_no_internet_refresh">Please enable internet to refresh</string>
+<string name="opening_browser_chooser">"This link will open in your device's default web browser"</string>
+<string name="last_updated">Last Updated: %1$s</string>
 
     <!--   donation -->
 

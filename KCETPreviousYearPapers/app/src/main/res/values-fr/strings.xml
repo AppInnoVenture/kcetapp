@@ -1,0 +1,182 @@
+<resources>
+  
+    <!-- Additions -->
+    <string name="tab_cutoff">Seuil</string>
+    <string name="tab_notes">Notes</string>
+    <string name="prcNote">Remarque : L’examen pratique s’applique uniquement aux candidats éligibles pour revendiquer le quota agricole.\nLes notes minimales pour réussir sont de 100 sur 200 (50 %).</string>
+    <string name="KanNote">Remarque : L’examen de langue kannada est uniquement destiné aux candidats kannadigas de Horanadu et Gadinadu (clauses d’éligibilité c et d).\nLes notes minimales pour réussir sont de 12 sur 50.</string>
+    <string name="head_notes">Notes de révision</string>
+    <string name="head_sol">Questionnaire avec solutions</string>
+    <string name="nav_pucqp">Obtenez l’application de questionnaires PUC sur Play Store</string>
+    <string name="phy">Physique</string>
+    <string name="che">Chimie</string>
+    <string name="bio">Biologie</string>
+    <string name="mat">Mathématiques</string>
+    <string name="kan">Kannada</string>
+    <string name="vetno">Pratique agricole/vétérinaire</string>
+    <string name="mbbs">MBBS</string>
+    <string name="engg">Ingénierie</string>
+    <string name="vet">Vétérinaire</string>
+    <string name="agri">Agriculture</string>
+    <string name="bds">Dentaire</string>
+    <string name="ayu">Ayush</string>
+    <string name="phar">Pharmacie</string>
+    <string name="arch">Architecture</string>
+    <string name="bnys">BNYS</string>
+    <string name="nurs">Soins infirmiers</string>
+    <string name="ahs">B.Sc - Sciences de la santé</string>
+    <string name="up_kcet">Mise à jour KCET 2025</string>
+    <string name="up_prac">Mise à jour de l’examen pratique KCET 2025</string>
+    <string name="up_info">Bulletin d’information KCET 2025</string>
+    <string name="up_rank">Critères de détermination du rang KCET</string>
+    <string name="up_info_pdf">info.pdf</string>
+    <string name="up_kcet_pdf">kcet.pdf</string>
+    <string name="up_prac_pdf">prac.pdf</string>
+    <string name="up_rank_pdf">rank.pdf</string>
+
+
+    <string name="nav_open">Ouvrir le tiroir de navigation</string>
+    <string name="nav_close">Fermer le tiroir de navigation</string>
+    <string name="nav_home">Page d\'accueil</string>
+    <string name="nav_tg">Rejoindre notre groupe Telegram</string>
+    <string name="nav_tg2">Rejoindre notre groupe Telegram 2</string>
+    <string name="nav_share">Partager l\'application</string>
+    <string name="nav_more">Plus d\'applications</string>
+    <string name="nav_dark">Passer en mode sombre</string>
+    <string name="nav_delete">Supprimer tous les fichiers téléchargés</string>
+    <string name="nav_privacy">Politique de confidentialité</string>
+    <string name="nav_exit">Quitter l\'application</string>
+    <string name="nav_2puc">Obtenir l\'application de notes Second PUC sur le Play Store</string>
+    <string name="nav_1puc">Obtenez l’application de notes du premier PUC sur Play Store</string>
+    <string name="nav_kan">Changer de langue</string>
+    <string name="nav_contact">Nous contacter/Suggestions</string>
+    <string name="nav_light">Passer en mode clair</string>
+
+    <string name="qpdf">Vous consultez déjà le questionnaire</string>
+    <string name="apdf">Vous consultez déjà les réponses clés</string>
+    <string name="waitt">Veuillez patienter jusqu\'à ce que le téléchargement soit terminé</string>
+    <string name="noNet">Veuillez activer Internet pour télécharger le contenu</string>
+    <string name="noNetRetry">Veuillez activer Internet pour télécharger le contenu et appuyez sur le bouton \u0027RÉESSAYER\u0027</string>
+    <string name="errr">Une erreur est survenue, veuillez le signaler dans notre groupe Telegram</string>
+    <string name="errdwd">Échec du chargement du contenu. Voulez-vous le télécharger à nouveau ?</string>
+    <string name="noFiles">Il n\'y a aucun fichier téléchargé disponible à supprimer</string>
+    <string name="dwding">Téléchargement en cours&#8230; Veuillez patienter</string>
+    <string name="dwdComp">Téléchargement terminé</string>
+    <string name="dwdCancel">Téléchargement annulé</string>
+    <string name="lanShortcutToast">Appuyez sur le bouton \u0027AJOUTER\u0027 pour créer un raccourci sur l\u0027écran d\u0027accueil</string>
+    <string name="exitToast">Bonne chance pour vos examens !</string>
+
+    <string name="alertTitle">Confirmer la suppression</string>
+    <string name="alertMsg">Supprimer tous les fichiers téléchargés ?</string>
+    <string name="alertLanMsg">Supprimer les fichiers téléchargés ?</string>
+    <string name="alertPositive">Annuler</string>
+    <string name="alertNegative">Supprimer</string>
+    <string name="alertCancel">Opération de suppression annulée</string>
+    <string name="alertDelete">Supprimé avec succès</string>
+    <string name="alertRestore">Restauré avec succès</string>
+
+    <string name="tab_qp">Questionnaires</string>
+    <string name="tab_up">Mises à jour KCET</string>
+    
+    <string name="btn_qp">Questionnaire</string>
+    <string name="btn_ans">Réponses clés</string>
+    
+    <string name="btn_spl">Mode partagé</string>
+
+    <string name="lan_shortcut">Créer un raccourci</string>
+    <string name="lan_delete">Supprimer les fichiers téléchargés</string>
+
+    <string name="snack_retry">Réessayer</string>
+    <string name="snack_undo">Annuler</string>
+    <string name="snack_yes">Oui</string>
+
+<string name="already_latest_updates">Vous consultez déjà les dernières mises à jour</string>
+<string name="refresh_successful">Actualisation réussie</string>
+<string name="error_no_internet_refresh">Veuillez activer internet pour actualiser</string>
+<string name="opening_browser_chooser">"Ce lien s'ouvrira dans le navigateur Web par défaut de votre appareil"</string>
+<string name="last_updated">Dernière mise à jour : %1$s</string>
+
+    <string name="thankk">MERCI</string>
+    <string name="donationn">Collecter les ressources et créer une application prend du temps. Votre petit don (même 10 ₹) nous aide à couvrir les coûts du serveur. Si cette application vous a aidé, envisagez de donner le montant de votre choix.\n\nMerci d\u0027avance pour votre soutien !</string>
+
+
+    <string name="menu_go_to_first_page">Aller à la première page</string>
+    <string name="menu_go_to_last_page">Aller à la dernière page</string>
+    <string name="menu_jump_to_page">Aller à la page&#8230;</string>
+    <string name="menu_toggle_auto_scroll">Défilement automatique</string>
+    <string name="menu_toggle_slideshow_start">Démarrer le diaporama</string>
+    <string name="menu_toggle_slideshow_stop">Arrêter le diaporama</string>
+    <string name="menu_toggle_night_mode_to_light">Passer en mode clair</string>
+    <string name="menu_toggle_night_mode_to_dark">Passer en mode sombre</string>
+    <string name="menu_toggle_fullscreen">Mode plein écran</string>
+    <string name="menu_share_screenshot">Partager le screenshot</string>
+    <string name="menu_zoom_to">Zoomer à</string>
+    <string name="menu_toggle_rotation_lock_lock">Verrouiller la rotation de l\'écran</string>
+    <string name="menu_toggle_rotation_lock_unlock">Déverrouiller la rotation de l\'écran</string>
+    <string name="menu_rotate_clockwise">Tourner dans le sens horaire</string>
+    <string name="menu_rotate_anticlockwise">Tourner dans le sens anti-horaire</string>
+    <string name="menu_toggle_volume_buttons_enable">Activer le défilement par touches de volume</string>
+    <string name="menu_toggle_volume_buttons_disable">Désactiver le défilement par touches de volume</string>
+    <string name="menu_swipe_horizontal_to_vertical">Balayer verticalement</string>
+    <string name="menu_swipe_horizontal_to_horizontal">Balayer horizontalement</string>
+    <string name="menu_toggle_spacing_add">Ajouter de l\'espacement</string>
+    <string name="menu_toggle_spacing_remove">Supprimer de l\'espacement</string>
+    <string name="menu_page_fling">Glissement rapide de page</string>
+    <string name="menu_page_snap">Alignement de page</string>
+    <string name="menu_exit">Quitter l\'application</string>
+
+    <string name="toast_auto_scroll_layout_closed">Mise en page de défilement automatique fermée</string>
+    <string name="toast_rotated_clockwise">Tourné dans le sens horaire</string>
+    <string name="toast_rotated_anticlockwise">Tourné dans le sens anti-horaire</string>
+    <string name="toast_locked_screen_rotation">Rotation de l\'écran verrouillée</string>
+    <string name="toast_unlocked_screen_rotation">Rotation de l\'écran déverrouillée</string>
+    <string name="toast_volume_button_scroll_enabled_state">Défilement par bouton de volume %1$s</string>
+    <string name="state_enabled">Activé</string>
+    <string name="state_disabled">Désactivé</string>
+    <string name="toast_already_on_last_page">Déjà sur la dernière page</string>
+    <string name="toast_navigated_to_last_page">Navigué vers la dernière page</string>
+    <string name="toast_already_on_first_page">Déjà sur la première page</string>
+    <string name="toast_navigated_to_first_page">Navigué vers la première page</string>
+    <string name="toast_swipe_direction_enabled">Glissement %1$s activé</string>
+    <string name="direction_horizontal">Horizontal</string>
+    <string name="direction_vertical">Vertical</string>
+    <string name="toast_slideshow_stopped">Diaporama arrêté</string>
+    <string name="toast_added_spacing">Espacement ajouté</string>
+    <string name="toast_removed_spacing">Espacement supprimé</string>
+    <string name="toast_page_number_field_empty">Le champ numéro de page ne peut pas être vide</string>
+    <string name="toast_already_viewing_page">Vous consultez déjà la page %1$d !</string>
+    <string name="toast_navigated_to_page_number">Navigué vers la page %1$d</string>
+    <string name="toast_page_number_must_be_between">Le numéro de page doit être compris entre 1 et %1$d</string>
+    <string name="toast_please_enter_valid_number">Veuillez entrer un nombre valide</string>
+    <string name="toast_zoom_level_field_empty">Le champ niveau de zoom ne peut pas être vide</string>
+    <string name="toast_zoom_level_already_at">Le niveau de zoom est déjà à %1$d%% !</string>
+    <string name="toast_zoomed_to_percent">Zoomé à %1$d%%</string>
+    <string name="toast_zoom_level_must_be_between">Le niveau de zoom doit être compris entre 50 et 1000%</string>
+    <string name="toast_slideshow_started">Diaporama démarré</string>
+    <string name="toast_duration_must_be_greater_than_zero">La durée doit être supérieure à 0</string>
+    <string name="toast_reached_last_page">Atteint la dernière page</string>
+    <string name="toast_page_swipe_enabled">Glissement rapide de page activé</string>
+    <string name="toast_page_swipe_disabled">Glissement rapide de page désactivé</string>
+    <string name="toast_page_alignment_enabled">Alignement de page activé</string>
+    <string name="toast_page_alignment_disabled">Alignement de page désactivé</string>
+    <string name="toast_direction_reversed">Direction inversée</string>
+    <string name="toast_preparing_screenshot">Préparation du screenshot&#8230;</string>
+
+    <string name="dialog_title_enter_page_number">Entrez le numéro de page :</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Annuler</string>
+    <string name="dialog_title_enter_zoom_level">Entrez le niveau de zoom (50–1000%) :</string>
+    <string name="dialog_title_enter_slideshow_duration">Entrez la durée du diaporama (secondes)</string>
+    <string name="dialog_button_start">Démarrer</string>
+    <string name="dialog_title_enable_fast_page_swipe">Activer le glissement rapide de page ?</string>
+    <string name="dialog_button_enable">Activer</string>
+    <string name="dialog_button_disable">Désactiver</string>
+    <string name="dialog_title_enable_page_alignment">Activer l\'alignement de page ?</string>
+
+    <string name="dialog_message_fast_page_swipe">Le glissement rapide de page vous permet de tourner les pages en balayant %1$s, comme dans un livre. Une fois activé, un balayage passe à la page suivante ou précédente. Cela accélère la navigation, mais peut affecter d\u0027autres actions de balayage.\n\nVoulez-vous activer le glissement rapide de page ?</string>
+    <string name="dialog_message_page_alignment">L\u0027alignement de page centre chaque page après un balayage %1$s. Une fois activé, la page se place automatiquement au milieu quand vous arrêtez de balayer. Cela facilite la lecture, mais peut sembler moins fluide.\n\nVoulez-vous activer l\u0027alignement de page ?</string>
+
+    <string name="direction_horizontally">horizontalement</string>
+    <string name="direction_up_or_down">vers le haut ou vers le bas</string>
+
+</resources>

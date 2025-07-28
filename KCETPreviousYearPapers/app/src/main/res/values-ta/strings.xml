@@ -1,0 +1,182 @@
+<resources>
+    
+    <!-- Additions -->
+    <string name="tab_cutoff">கட்ஆஃப்</string>
+    <string name="tab_notes">குறிப்புகள்</string>
+    <string name="prcNote">குறிப்பு: பயிற்சி தேர்வு, விவசாய கோட்டாவுக்கு தகுதியான வேட்பாளர்களுக்கு மட்டுமே பொருந்தும்.\nகுறைந்தபட்ச தேர்ச்சி மதிப்பெண்கள் 200 இல் 100 (50%).</string>
+    <string name="KanNote">குறிப்பு: கன்னட மொழி தேர்வு ஹொரநாடு மற்றும் கடிநாடு கன்னட வேட்பாளர்களுக்கு மட்டுமே (தகுதி பிரிவுகள் c மற்றும் d).\nகுறைந்தபட்ச தேர்ச்சி மதிப்பெண்கள் 50 இல் 12.</string>
+    <string name="head_notes">புனராவர்த்தனை குறிப்புகள்</string>
+    <string name="head_sol">விடைகளுடன் வினாத்தாள்</string>
+    <string name="nav_pucqp">பிளே ஸ்டோரில் PUC வினாத்தாள்கள் ஆப் பெறவும்</string>
+    <string name="phy">இயற்பியல்</string>
+    <string name="che">வேதியியல்</string>
+    <string name="bio">உயிரியல்</string>
+    <string name="mat">கணிதம்</string>
+    <string name="kan">கன்னடம்</string>
+    <string name="vetno">விவசாயம்/கால்நடை பயிற்சி</string>
+    <string name="mbbs">எம்பிபிஎஸ்</string>
+    <string name="engg">பொறியியல்</string>
+    <string name="vet">கால்நடை</string>
+    <string name="agri">விவசாயம்</string>
+    <string name="bds">பல் மருத்துவம்</string>
+    <string name="ayu">ஆயுஷ்</string>
+    <string name="phar">மருந்தியல்</string>
+    <string name="arch">கட்டிடக்கலை</string>
+    <string name="bnys">பிஎன்ஒய்எஸ்</string>
+    <string name="nurs">நர்சிங்</string>
+    <string name="ahs">பி.எஸ்ஸி - ஏஎச்எஸ்</string>
+    <string name="up_kcet">KCET 2025 புதுப்பிப்பு</string>
+    <string name="up_prac">KCET 2025 பயிற்சி தேர்வு புதுப்பிப்பு</string>
+    <string name="up_info">KCET 2025 தகவல் புல்லட்டின்</string>
+    <string name="up_rank">KCET தரவரிசை நிர்ணய அளவுகோல்கள்</string>
+    <string name="up_info_pdf">info.pdf</string>
+    <string name="up_kcet_pdf">kcet.pdf</string>
+    <string name="up_prac_pdf">prac.pdf</string>
+    <string name="up_rank_pdf">rank.pdf</string>
+
+
+    <string name="nav_open">Navigation Drawer திற</string>
+    <string name="nav_close">Navigation Drawer மூடு</string>
+    <string name="nav_home">முகப்புப் பக்கம்</string>
+    <string name="nav_tg">எங்கள் Telegram குழுவில் சேரவும்</string>
+    <string name="nav_tg2">எங்கள் Telegram குழு 2 இல் சேரவும்</string>
+    <string name="nav_share">பயன்பாட்டைப் பகிரவும்</string>
+    <string name="nav_more">மேலும் பயன்பாடுகள்</string>
+    <string name="nav_dark">இருண்ட முறைக்கு மாறவும்</string>
+    <string name="nav_delete">பதிவிறக்கம் செய்யப்பட்ட அனைத்து கோப்புகளையும் நீக்கு</string>
+    <string name="nav_privacy">தனியுரிமைக் கொள்கை</string>
+    <string name="nav_exit">பயன்பாட்டிலிருந்து வெளியேறு</string>
+    <string name="nav_2puc">Play Store இல் Second PUC Notes App ஐப் பெறவும்</string>
+    <string name="nav_1puc">பிளே ஸ்டோரில் முதல் பியூசி குறிப்புகள் ஆப் பெறவும்</string>
+    <string name="nav_kan">மொழியை மாற்று</string>
+    <string name="nav_contact">எங்களைத் தொடர்புகொள்ளவும்/பரிந்துரைகள்</string>
+    <string name="nav_light">ஒளி முறைக்கு மாறவும்</string>
+
+    <string name="qpdf">நீங்கள் ஏற்கனவே வினாத்தாளைப் பார்க்கிறீர்கள்</string>
+    <string name="apdf">நீங்கள் ஏற்கனவே விடைத்தாளைப் பார்க்கிறீர்கள்</string>
+    <string name="waitt">பதிவிறக்கம் முடியும் வரை காத்திருக்கவும்</string>
+    <string name="noNet">உள்ளடக்கத்தைப் பதிவிறக்க இணையத்தை இயக்கவும்</string>
+    <string name="noNetRetry">உள்ளடக்கத்தைப் பதிவிறக்க இணையத்தை இயக்கி, \'மீண்டும் முயற்சி\' பொத்தானைத் தட்டவும்</string>
+    <string name="errr">பிழை ஏற்பட்டது, தயவு செய்து எங்கள் டெலிகிராம் குழுவில் புகாரளிக்கவும்</string>
+<string name="errdwd">உள்ளடக்கத்தை ஏற்ற முடியவில்லை. மீண்டும் பதிவிறக்கம் செய்ய விரும்புகிறீர்களா?</string>
+    <string name="noFiles">நீக்கக்கூடிய பதிவிறக்கம் செய்யப்பட்ட கோப்புகள் எதுவும் இல்லை</string>
+    <string name="dwding">பதிவிறக்கம் ஆகிறது&#8230; காத்திருக்கவும்</string>
+    <string name="dwdComp">பதிவிறக்கம் முடிந்தது</string>
+    <string name="lanShortcutToast">முகப்புத் திரையில் ஷார்ட்கட் உருவாக்க \'ADD\' பொத்தானைத் தட்டவும்</string>
+    <string name="exitToast">உங்கள் தேர்வுகளுக்கு எல்லாம் வாழ்த்துக்கள்!</string>
+<string name="dwdCancel">பதிவிறக்கம் ரத்து செய்யப்பட்டது</string>
+
+    <string name="alertTitle">நீக்குதலை உறுதிப்படுத்து</string>
+    <string name="alertMsg">பதிவிறக்கம் செய்யப்பட்ட அனைத்து கோப்புகளையும் நீக்கவா?</string>
+    <string name="alertLanMsg">பதிவிறக்கம் செய்யப்பட்ட கோப்புகளை நீக்கவா?</string>
+   <string name="alertPositive">ரத்து</string>
+<string name="alertNegative">ஆம்</string>
+ <string name="alertCancel">நீக்கும் செயல்பாடு ரத்துசெய்யப்பட்டது</string>
+    <string name="alertDelete">வெற்றிகரமாக நீக்கப்பட்டது</string>
+    <string name="alertRestore">வெற்றிகரமாக மீட்டெடுக்கப்பட்டது</string>
+
+    <string name="tab_qp">வினாத்தாள்கள்</string>
+     <string name="tab_up">KCET புதுப்பிப்புகள்</string>
+
+
+    <string name="btn_qp">வினாத்தாள்</string>
+    <string name="btn_ans">விடைத்தாள்</string>
+    <string name="btn_spl">Split Mode</string>
+
+    <string name="lan_shortcut">ஷார்ட்கட் உருவாக்கு</string>
+    <string name="lan_delete">பதிவிறக்கம் செய்யப்பட்ட கோப்புகளை நீக்கு</string>
+
+    <string name="snack_retry">மீண்டும் முயற்சி</string>
+    <string name="snack_undo">செயல்தவிர்</string>
+    <string name="snack_yes">ஆம்</string>
+<string name="already_latest_updates">நீங்கள் ஏற்கனவே சமீபத்திய புதுப்பிப்புகளைப் பார்க்கிறீர்கள்</string>
+<string name="refresh_successful">வெற்றிகரமாகப் புதுப்பிக்கப்பட்டது</string>
+<string name="error_no_internet_refresh">புதுப்பிக்க இணைய இணைப்பை இயக்கவும்</string>
+<string name="opening_browser_chooser">"இந்த இணைப்பு உங்கள் சாதனத்தின் இயல்புநிலை இணைய உலாவியில் திறக்கும்"</string>
+<string name="last_updated">கடைசியாகப் புதுப்பிக்கப்பட்டது: %1$s</string>
+
+
+    <string name="thankk">நன்றி</string>
+    <string name="donationn">தேவையான வளங்களை சேகரிக்கவும், ஒரு பயன்பாட்டை உருவாக்கவும் பல நாட்கள் ஆகும். உங்கள் சிறிய நன்கொடை (₹10 கூட) சேவையக செலவுகளை ஈடுசெய்ய எங்களுக்கு உதவுகிறது. இந்த பயன்பாடு உங்களுக்கு உதவியிருந்தால், நீங்கள் விரும்பும் எந்தத் தொகையையும் நன்கொடையாக வழங்கவும்.\nஉங்கள் ஆதரவுக்கு முன்கூட்டியே நன்றி!</string>
+
+
+    <string name="menu_go_to_first_page">முதல் பக்கத்திற்குச் செல்லவும்</string>
+    <string name="menu_go_to_last_page">கடைசி பக்கத்திற்குச் செல்லவும்</string>
+    <string name="menu_jump_to_page">பக்கத்திற்குச் செல்லவும்&#8230;</string>
+    <string name="menu_toggle_auto_scroll">தானியங்கு சுருள்</string>
+    <string name="menu_toggle_slideshow_start">ஸ்லைடுஷோவைத் தொடங்கு</string>
+    <string name="menu_toggle_slideshow_stop">ஸ்லைடுஷோவை நிறுத்து</string>
+    <string name="menu_toggle_night_mode_to_light">ஒளி முறைக்கு மாறவும்</string>
+    <string name="menu_toggle_night_mode_to_dark">இருண்ட முறைக்கு மாறவும்</string>
+    <string name="menu_toggle_fullscreen">முழுத் திரை முறை</string>
+    <string name="menu_share_screenshot">Screenshot ஐப் பகிரவும்</string>
+    <string name="menu_zoom_to">Zoom செய்ய</string>
+    <string name="menu_toggle_rotation_lock_lock">திரை சுழற்சியைப் பூட்டு</string>
+    <string name="menu_toggle_rotation_lock_unlock">திரை சுழற்சியைப் பூட்டை நீக்கு</string>
+    <string name="menu_rotate_clockwise">கடிகார திசையில் சுழற்று</string>
+    <string name="menu_rotate_anticlockwise">கடிகார எதிர்ப்பு திசையில் சுழற்று</string>
+    <string name="menu_toggle_volume_buttons_enable">ஒலியளவு பொத்தான் சுருளை இயக்கு</string>
+    <string name="menu_toggle_volume_buttons_disable">ஒலியளவு பொத்தான் சுருளை முடக்கு</string>
+    <string name="menu_swipe_horizontal_to_vertical">செங்குத்தாக ஸ்வைப் செய்</string>
+    <string name="menu_swipe_horizontal_to_horizontal">கிடைமட்டமாக ஸ்வைப் செய்</string>
+    <string name="menu_toggle_spacing_add">இடைவெளியைச் சேர்</string>
+    <string name="menu_toggle_spacing_remove">இடைவெளியை நீக்கு</string>
+    <string name="menu_page_fling">வேகமான பக்க ஸ்வைப்</string>
+    <string name="menu_page_snap">பக்கச் சீரமைப்பு</string>
+    <string name="menu_exit">பயன்பாட்டிலிருந்து வெளியேறு</string>
+
+    <string name="toast_auto_scroll_layout_closed">தானியங்கு சுருள் லேஅவுட் மூடப்பட்டது</string>
+    <string name="toast_rotated_clockwise">கடிகார திசையில் சுழற்றப்பட்டது</string>
+    <string name="toast_rotated_anticlockwise">கடிகார எதிர்ப்பு திசையில் சுழற்றப்பட்டது</string>
+    <string name="toast_locked_screen_rotation">திரை சுழற்சி பூட்டப்பட்டது</string>
+    <string name="toast_unlocked_screen_rotation">திரை சுழற்சி பூட்டு நீக்கப்பட்டது</string>
+    <string name="toast_volume_button_scroll_enabled_state">ஒலியளவு பொத்தான் சுருள் %1$s</string>
+    <string name="state_enabled">இயக்கப்பட்டது</string>
+    <string name="state_disabled">முடக்கப்பட்டது</string>
+    <string name="toast_already_on_last_page">ஏற்கனவே கடைசி பக்கத்தில் உள்ளது</string>
+    <string name="toast_navigated_to_last_page">கடைசி பக்கத்திற்குச் செல்லப்பட்டது</string>
+    <string name="toast_already_on_first_page">ஏற்கனவே முதல் பக்கத்தில் உள்ளது</string>
+    <string name="toast_navigated_to_first_page">முதல் பக்கத்திற்குச் செல்லப்பட்டது</string>
+    <string name="toast_swipe_direction_enabled">%1$s ஸ்வைப் இயக்கப்பட்டது</string>
+    <string name="direction_horizontal">கிடைமட்ட</string>
+    <string name="direction_vertical">செங்குத்து</string>
+    <string name="toast_slideshow_stopped">ஸ்லைடுஷோ நிறுத்தப்பட்டது</string>
+    <string name="toast_added_spacing">இடைவெளி சேர்க்கப்பட்டது</string>
+    <string name="toast_removed_spacing">இடைவெளி நீக்கப்பட்டது</string>
+    <string name="toast_page_number_field_empty">பக்க எண் புலம் காலியாக இருக்கக்கூடாது</string>
+    <string name="toast_already_viewing_page">நீங்கள் ஏற்கனவே பக்கம் %1$d ஐப் பார்க்கிறீர்கள்!</string>
+    <string name="toast_navigated_to_page_number">பக்கம் %1$d க்குச் செல்லப்பட்டது</string>
+    <string name="toast_page_number_must_be_between">பக்க எண் 1 மற்றும் %1$d க்கு இடையில் இருக்க வேண்டும்</string>
+    <string name="toast_please_enter_valid_number">தயவுசெய்து சரியான எண்ணை உள்ளிடவும்</string>
+    <string name="toast_zoom_level_field_empty">Zoom Level புலம் காலியாக இருக்கக்கூடாது</string>
+    <string name="toast_zoom_level_already_at">Zoom Level ஏற்கனவே %1$d%% இல் உள்ளது!</string>
+    <string name="toast_zoomed_to_percent">%1$d%% க்கு Zoom செய்யப்பட்டது</string>
+    <string name="toast_zoom_level_must_be_between">Zoom Level 50 மற்றும் 1000% க்கு இடையில் இருக்க வேண்டும்</string>
+    <string name="toast_slideshow_started">ஸ்லைடுஷோ தொடங்கப்பட்டது</string>
+    <string name="toast_duration_must_be_greater_than_zero">கால அளவு 0 ஐ விட அதிகமாக இருக்க வேண்டும்</string>
+    <string name="toast_reached_last_page">கடைசி பக்கத்தை அடைந்தது</string>
+    <string name="toast_page_swipe_enabled">வேகமான பக்க ஸ்வைப் இயக்கப்பட்டது</string>
+    <string name="toast_page_swipe_disabled">வேகமான பக்க ஸ்வைப் முடக்கப்பட்டது</string>
+    <string name="toast_page_alignment_enabled">பக்கச் சீரமைப்பு இயக்கப்பட்டது</string>
+    <string name="toast_page_alignment_disabled">பக்கச் சீரமைப்பு முடக்கப்பட்டது</string>
+    <string name="toast_direction_reversed">திசை மாற்றப்பட்டது</string>
+    <string name="toast_preparing_screenshot">Screenshot தயாராகிறது&#8230;</string>
+
+    <string name="dialog_title_enter_page_number">பக்க எண்ணை உள்ளிடவும்:</string>
+    <string name="dialog_button_ok">சரி</string>
+    <string name="dialog_button_cancel">ரத்துசெய்</string>
+    <string name="dialog_title_enter_zoom_level">Zoom Level ஐ உள்ளிடவும் (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">ஸ்லைடுஷோ கால அளவை உள்ளிடவும் (வினாடிகள்)</string>
+    <string name="dialog_button_start">தொடங்கு</string>
+    <string name="dialog_title_enable_fast_page_swipe">வேகமான பக்க ஸ்வைப்பை இயக்கவா?</string>
+    <string name="dialog_button_enable">இயக்கு</string>
+    <string name="dialog_button_disable">முடக்கு</string>
+    <string name="dialog_title_enable_page_alignment">பக்கச் சீரமைப்பை இயக்கவா?</string>
+
+    <string name="dialog_message_fast_page_swipe">Fast Page Swipe என்பது ஒரு புத்தகத்தில் பக்கங்களைத் திருப்புவது போல, %1$s ஸ்வைப் செய்வதன் மூலம் பக்கங்களை விரைவாக மாற்ற உதவுகிறது. இது இயக்கப்படும்போது, ஒரு ஸ்வைப் உங்களை அடுத்த அல்லது முந்தைய பக்கத்திற்கு அழைத்துச் செல்லும். இது பக்கங்கள் வழியாக நகர்வதை விரைவுபடுத்துகிறது, ஆனால் பிற ஸ்வைப் செயல்பாடுகளை பாதிக்கலாம்.\n\nநீங்கள் Fast Page Swipe ஐ இயக்க விரும்புகிறீர்களா?</string>
+    <string name="dialog_message_page_alignment">Page Alignment நீங்கள் %1$s ஸ்வைப் செய்த பிறகு ஒவ்வொரு பக்கமும் முழுமையாக மையப்படுத்தப்படுவதை உறுதி செய்கிறது. இது இயக்கப்படும்போது, நீங்கள் ஸ்வைப் செய்வதை நிறுத்தியதும் பக்கம் தானாகவே மையத்தில் அமர்ந்துவிடும். இது படிப்பதை எளிதாக்குகிறது, ஆனால் சற்று குறைவாக மென்மையாக உணரலாம்.\n\nநீங்கள் Page Alignment ஐ இயக்க விரும்புகிறீர்களா?</string>
+
+    <string name="direction_horizontally">கிடைமட்டமாக</string>
+    <string name="direction_up_or_down">மேல் அல்லது கீழ்</string>
+
+</resources>

@@ -1,0 +1,179 @@
+<resources>
+    
+    <!-- Additions -->
+    <string name="tab_cutoff">కటాఫ్</string>
+    <string name="tab_notes">నోట్స్</string>
+    <string name="prcNote">గమనిక: ప్రాక్టికల్ పరీక్ష కేవలం వ్యవసాయ కోటాకు అర్హత కలిగిన అభ్యర్థులకు మాత్రమే వర్తిస్తుంది.\nకనిష్ట ఉత్తీర్ణ మార్కులు 200లో 100 (50%).</string>
+    <string name="KanNote">గమనిక: కన్నడ భాషా పరీక్ష హోరనాడు మరియు గడినాడు కన్నడిగ అభ్యర్థులకు మాత్రమే (అర్హత నిబంధనలు c మరియు d).\nకనిష్ట ఉత్తీర్ణ మార్కులు 50లో 12.</string>
+    <string name="head_notes">పునరావృత్తి నోట్స్</string>
+    <string name="head_sol">సమాధానాలతో ప్రశ్న పత్రం</string>
+    <string name="nav_pucqp">ప్లే స్టోర్‌లో PUC ప్రశ్న పత్రాల యాప్‌ను పొందండి</string>
+    <string name="phy">భౌతిక శాస్త్రం</string>
+    <string name="che">రసాయన శాస్త్రం</string>
+    <string name="bio">జీవ శాస్త్రం</string>
+    <string name="mat">గణితం</string>
+    <string name="kan">కన్నడ</string>
+    <string name="vetno">వ్యవసాయం/పశు వైద్య ప్రాక్టికల్</string>
+    <string name="mbbs">ఎంబీబీఎస్</string>
+    <string name="engg">ఇంజనీరింగ్</string>
+    <string name="vet">పశు వైద్యం</string>
+    <string name="agri">వ్యవసాయం</string>
+    <string name="bds">డెంటల్</string>
+    <string name="ayu">ఆయుష్</string>
+    <string name="phar">ఫార్మసీ</string>
+    <string name="arch">ఆర్కిటెక్చర్</string>
+    <string name="bnys">బీఎన్వైఎస్</string>
+    <string name="nurs">నర్సింగ్</string>
+    <string name="ahs">బీ.ఎస్సీ - ఎహెచ్ఎస్</string>
+    <string name="up_kcet">KCET 2025 నవీకరణ</string>
+    <string name="up_prac">KCET 2025 ప్రాక్టికల్ పరీక్ష నవీకరణ</string>
+    <string name="up_info">KCET 2025 సమాచార బులెటిన్</string>
+    <string name="up_rank">KCET ర్యాంక్ నిర్ణయ ప్రమాణాలు</string>
+    <string name="up_info_pdf">info.pdf</string>
+    <string name="up_kcet_pdf">kcet.pdf</string>
+    <string name="up_prac_pdf">prac.pdf</string>
+    <string name="up_rank_pdf">rank.pdf</string>
+
+    <string name="nav_open">Navigation Drawer తెరవండి</string>
+    <string name="nav_close">Navigation Drawer మూసివేయండి</string>
+    <string name="nav_home">హోమ్ పేజీ</string>
+    <string name="nav_tg">మా టెలిగ్రామ్ గ్రూప్‌లో చేరండి</string>
+    <string name="nav_tg2">మా రెండవ టెలిగ్రామ్ గ్రూప్‌లో చేరండి</string>
+    <string name="nav_share">అనువర్తనాన్ని షేర్ చేయండి</string>
+    <string name="nav_more">ఇంకా యాప్‌లు</string>
+    <string name="nav_dark">డార్క్ మోడ్‌కు మారండి</string>
+    <string name="nav_delete">డౌన్‌లోడ్ చేసిన అన్ని ఫైళ్లను తొలగించండి</string>
+    <string name="nav_privacy">గోప్యతా విధానం</string>
+    <string name="nav_exit">యాప్ నుండి నిష్క్రమించండి</string>
+    <string name="nav_2puc">ప్లే స్టోర్‌లో Second PUC Notes App పొందండి</string>
+    <string name="nav_1puc">ప్లే స్టోర్‌లో మొదటి పీయూసీ నోట్స్ యాప్‌ను పొందండి</string>
+    <string name="nav_kan">భాష మార్చండి</string>
+    <string name="nav_contact">మమ్మల్ని సంప్రదించండి/సూచనలు</string>
+    <string name="nav_light">లైట్ మోడ్‌కు మారండి</string>
+
+    <string name="qpdf">మీరు ఇప్పటికే ప్రశ్న పత్రాన్ని చూస్తున్నారు</string>
+    <string name="apdf">మీరు ఇప్పటికే కీ జవాబులను చూస్తున్నారు</string>
+    <string name="waitt">డౌన్‌లోడ్ పూర్తయ్యే వరకు దయచేసి వేచి ఉండండి</string>
+    <string name="noNet">కంటెంట్‌ను డౌన్‌లోడ్ చేయడానికి ఇంటర్నెట్‌ను ఎనేబుల్ చేయండి</string>
+    <string name="noNetRetry">కంటెంట్‌ను డౌన్‌లోడ్ చేయడానికి ఇంటర్నెట్‌ను ఎనేబుల్ చేసి \u0027మళ్లీ ప్రయత్నించు\u0027 బటన్‌ను నొక్కండి</string>
+    <string name="errr">లోపం సంభవించింది, దయచేసి మా టెలిగ్రామ్ గ్రూప్‌లో నివేదించండి</string>
+    <string name="errdwd">కంటెంట్ లోడ్ చేయడంలో విఫలమైంది. మీరు మళ్లీ డౌన్‌లోడ్ చేయాలనుకుంటున్నారా?</string>
+    <string name="noFiles">తొలగించడానికి డౌన్‌లోడ్ చేసిన ఫైల్‌లు అందుబాటులో లేవు</string>
+    <string name="dwding">డౌన్‌లోడ్ అవుతోంది&#8230; దయచేసి వేచి ఉండండి</string>
+    <string name="dwdComp">డౌన్‌లోడ్ పూర్తయింది</string>
+    <string name="lanShortcutToast">హోమ్ స్క్రీన్‌పై షార్ట్‌కట్‌ను సృష్టించడానికి \u0027ADD\u0027 బటన్‌ను నొక్కండి</string>
+    <string name="exitToast">మీ పరీక్షలకు ఆల్ ది బెస్ట్!</string>
+<string name="dwdCancel">డౌన్‌లోడ్ రద్దు చేయబడింది</string>
+
+    <string name="alertTitle">తొలగింపును నిర్ధారించండి</string>
+    <string name="alertMsg">డౌన్‌లోడ్ చేసిన అన్ని ఫైల్‌లను తొలగించాలా?</string>
+    <string name="alertLanMsg">డౌన్‌లోడ్ చేసిన ఫైల్‌లను తొలగించాలా?</string>
+    <string name="alertPositive">రద్దు చేయి</string>
+    <string name="alertNegative">తొలగించు</string>
+    <string name="alertCancel">తొలగింపు ఆపరేషన్ రద్దు చేయబడింది</string>
+    <string name="alertDelete">విజయవంతంగా తొలగించబడింది</string>
+    <string name="alertRestore">విజయవంతంగా పునరుద్ధరించబడింది</string>
+
+    <string name="tab_qp">ప్రశ్న పత్రాలు</string>
+    <string name="tab_up">KCET నవీకరణలు</string>
+
+    <string name="btn_qp">ప్రశ్న పత్రం</string>
+    <string name="btn_ans">కీ జవాబులు</string>
+    <string name="btn_spl">విభజన మోడ్</string>
+
+    <string name="lan_shortcut">షార్ట్‌కట్ సృష్టించు</string>
+    <string name="lan_delete">డౌన్‌లోడ్ చేసిన ఫైల్‌లను తొలగించు</string>
+
+    <string name="snack_retry">మళ్లీ ప్రయత్నించు</string>
+    <string name="snack_undo">అన్‌డూ</string>
+    <string name="snack_yes">అవును</string>
+<string name="already_latest_updates">మీరు ఇప్పటికే తాజా అప్‌డేట్‌లను చూస్తున్నారు</string>
+<string name="refresh_successful">విజయవంతంగా రిఫ్రెష్ చేయబడింది</string>
+<string name="error_no_internet_refresh">రిఫ్రెష్ చేయడానికి దయచేసి ఇంటర్నెట్‌ను ప్రారంభించండి</string>
+<string name="opening_browser_chooser">"ఈ లింక్ మీ పరికరం యొక్క డిఫాల్ట్ వెబ్ బ్రౌజర్‌లో తెరవబడుతుంది"</string>
+<string name="last_updated">చివరిగా నవీకరించబడింది: %1$s</string>
+
+    <string name="thankk">ధన్యవాదాలు</string>
+    <string name="donationn">అవసరమైన వనరులను సేకరించడానికి మరియు ఒక అనువర్తనాన్ని సృష్టించడానికి చాలా రోజులు పడుతుంది. మీ చిన్న విరాళం (₹10 కూడా) సర్వర్ ఖర్చులను భరించడానికి మాకు సహాయపడుతుంది. ఈ అనువర్తనం మీకు సహాయపడితే, దయచేసి మీరు కోరుకున్న ఏ మొత్తాన్ని అయినా విరాళంగా ఇవ్వండి.\nమీ మద్దతుకు ముందుగానే ధన్యవాదాలు!</string>
+
+
+    <string name="menu_go_to_first_page">మొదటి పేజీకి వెళ్ళు</string>
+    <string name="menu_go_to_last_page">చివరి పేజీకి వెళ్ళు</string>
+    <string name="menu_jump_to_page">పేజీకి వెళ్ళు&#8230;</string>
+    <string name="menu_toggle_auto_scroll">ఆటో స్క్రోల్</string>
+    <string name="menu_toggle_slideshow_start">స్లైడ్‌షో ప్రారంభించు</string>
+    <string name="menu_toggle_slideshow_stop">స్లైడ్‌షో ఆపు</string>
+    <string name="menu_toggle_night_mode_to_light">లైట్ మోడ్‌కు మారండి</string>
+    <string name="menu_toggle_night_mode_to_dark">డార్క్ మోడ్‌కు మారండి</string>
+    <string name="menu_toggle_fullscreen">పూర్తి స్క్రీన్ మోడ్</string>
+    <string name="menu_share_screenshot">స్క్రీన్‌షాట్ షేర్ చేయండి</string>
+    <string name="menu_zoom_to">జూమ్ చేయి</string>
+    <string name="menu_toggle_rotation_lock_lock">స్క్రీన్ రొటేషన్ లాక్ చేయి</string>
+    <string name="menu_toggle_rotation_lock_unlock">స్క్రీన్ రొటేషన్ అన్‌లాక్ చేయి</string>
+    <string name="menu_rotate_clockwise">సవ్యదిశలో తిప్పండి</string>
+    <string name="menu_rotate_anticlockwise">అపసవ్యదిశలో తిప్పండి</string>
+    <string name="menu_toggle_volume_buttons_enable">వాల్యూమ్ కీ స్క్రోల్ ఎనేబుల్ చేయి</string>
+    <string name="menu_toggle_volume_buttons_disable">వాల్యూమ్ కీ స్క్రోల్ డిసేబుల్ చేయి</string>
+    <string name="menu_swipe_horizontal_to_vertical">నిలువుగా స్వైప్ చేయి</string>
+    <string name="menu_swipe_horizontal_to_horizontal">క్షితిజ సమాంతరంగా స్వైప్ చేయి</string>
+    <string name="menu_toggle_spacing_add">ఖాళీ ప్రదేశం జోడించు</string>
+    <string name="menu_toggle_spacing_remove">స్పేసింగ్ తొలగించు</string>
+    <string name="menu_page_fling">వేగవంతమైన పేజీ స్వైప్</string>
+    <string name="menu_page_snap">పేజీ అలైన్‌మెంట్</string>
+    <string name="menu_exit">యాప్ నుండి నిష్క్రమించండి</string>
+
+    <string name="toast_auto_scroll_layout_closed">ఆటో స్క్రోల్ లేఅవుట్ మూసివేయబడింది</string>
+    <string name="toast_rotated_clockwise">సవ్యదిశలో తిప్పబడింది</string>
+    <string name="toast_rotated_anticlockwise">అపసవ్యదిశలో తిప్పబడింది</string>
+    <string name="toast_locked_screen_rotation">స్క్రీన్ రొటేషన్ లాక్ చేయబడింది</string>
+    <string name="toast_unlocked_screen_rotation">స్క్రీన్ రొటేషన్ అన్‌లాక్ చేయబడింది</string>
+    <string name="toast_volume_button_scroll_enabled_state">వాల్యూమ్ బటన్ స్క్రోల్ %1$s</string>
+    <string name="state_enabled">ఎనేబుల్ చేయబడింది</string>
+    <string name="state_disabled">డిసేబుల్ చేయబడింది</string>
+    <string name="toast_already_on_last_page">ఇప్పటికే చివరి పేజీలో ఉన్నారు</string>
+    <string name="toast_navigated_to_last_page">చివరి పేజీకి నావిగేట్ చేయబడింది</string>
+    <string name="toast_already_on_first_page">ఇప్పటికే మొదటి పేజీలో ఉన్నారు</string>
+    <string name="toast_navigated_to_first_page">మొదటి పేజీకి నావిగేట్ చేయబడింది</string>
+    <string name="toast_swipe_direction_enabled">%1$s స్వైప్ ఎనేబుల్ చేయబడింది</string>
+    <string name="direction_horizontal">క్షితిజ సమాంతర</string>
+    <string name="direction_vertical">నిలువు</string>
+    <string name="toast_slideshow_stopped">స్లైడ్‌షో ఆపబడింది</string>
+    <string name="toast_added_spacing">స్పేసింగ్ జోడించబడింది</string>
+    <string name="toast_removed_spacing">స్పేసింగ్ తొలగించబడింది</string>
+    <string name="toast_page_number_field_empty">పేజీ నంబర్ ఫీల్డ్ ఖాళీగా ఉండకూడదు</string>
+    <string name="toast_already_viewing_page">మీరు ఇప్పటికే పేజీ %1$dని చూస్తున్నారు!</string>
+    <string name="toast_navigated_to_page_number">పేజీ %1$dకి నావిగేట్ చేయబడింది</string>
+    <string name="toast_page_number_must_be_between">పేజీ నంబర్ 1 మరియు %1$d మధ్య ఉండాలి</string>
+    <string name="toast_please_enter_valid_number">దయచేసి చెల్లుబాటు అయ్యే నంబర్‌ను నమోదు చేయండి</string>
+    <string name="toast_zoom_level_field_empty">జూమ్ స్థాయి ఫీల్డ్ ఖాళీగా ఉండకూడదు</string>
+    <string name="toast_zoom_level_already_at">జూమ్ స్థాయి ఇప్పటికే %1$d%% వద్ద ఉంది!</string>
+    <string name="toast_zoomed_to_percent">%1$d%% జూమ్ చేయబడింది</string>
+    <string name="toast_zoom_level_must_be_between">జూమ్ స్థాయి 50 మరియు 1000% మధ్య ఉండాలి</string>
+    <string name="toast_slideshow_started">స్లైడ్‌షో ప్రారంభించబడింది</string>
+    <string name="toast_duration_must_be_greater_than_zero">వ్యవధి 0 కంటే ఎక్కువగా ఉండాలి</string>
+    <string name="toast_reached_last_page">చివరి పేజీకి చేరుకుంది</string>
+    <string name="toast_page_swipe_enabled">వేగవంతమైన పేజీ స్వైప్ ఎనేబుల్ చేయబడింది</string>
+    <string name="toast_page_swipe_disabled">వేగవంతమైన పేజీ స్వైప్ డిసేబుల్ చేయబడింది</string>
+    <string name="toast_page_alignment_enabled">పేజీ అలైన్‌మెంట్ ఎనేబుల్ చేయబడింది</string>
+    <string name="toast_page_alignment_disabled">పేజీ అలైన్‌మెంట్ డిసేబుల్ చేయబడింది</string>
+    <string name="toast_direction_reversed">దిశ మార్చబడింది</string>
+    <string name="toast_preparing_screenshot">స్క్రీన్‌షాట్ సిద్ధం చేయబడుతోంది…</string>
+
+    <string name="dialog_title_enter_page_number">పేజీ నంబర్‌ను నమోదు చేయండి:</string>
+    <string name="dialog_button_ok">సరే</string>
+    <string name="dialog_button_cancel">రద్దు చేయి</string>
+    <string name="dialog_title_enter_zoom_level">జూమ్ స్థాయిని నమోదు చేయండి (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">స్లైడ్‌షో వ్యవధిని నమోదు చేయండి (సెకన్లు)</string>
+    <string name="dialog_button_start">ప్రారంభించు</string>
+    <string name="dialog_title_enable_fast_page_swipe">వేగవంతమైన పేజీ స్వైప్‌ను ఎనేబుల్ చేయాలా?</string>
+    <string name="dialog_button_enable">ఎనేబుల్ చేయి</string>
+    <string name="dialog_button_disable">డిసేబుల్ చేయి</string>
+    <string name="dialog_title_enable_page_alignment">పేజీ అలైన్‌మెంట్‌ను ఎనేబుల్ చేయాలా?</string>
+
+    <string name="dialog_message_fast_page_swipe">వేగవంతమైన పేజీ స్వైప్ మీకు %1$s స్వైప్ చేయడం ద్వారా పుస్తకంలో పేజీలను తిప్పినట్లు త్వరగా మార్చే సౌలభ్యాన్ని అందిస్తుంది. ఇది ఆన్ చేసినప్పుడు, ఒక స్వైప్ మిమ్మల్ని తదుపరి లేదా మునుపటి పేజీకి తీసుకెళ్తుంది. ఇది పేజీల ద్వారా వేగంగా కదలడానికి సహాయపడుతుంది, కానీ ఇతర స్వైప్ చర్యలను ప్రభావితం చేయవచ్చు.\n\nమీరు వేగవంతమైన పేజీ స్వైప్‌ను ఎనేబుల్ చేయాలనుకుంటున్నారా?</string>
+    <string name="dialog_message_page_alignment">పేజీ అలైన్‌మెంట్ మీరు %1$s స్వైప్ చేసిన తర్వాత ప్రతి పేజీ మధ్యలో ఉండేలా చేస్తుంది. ఇది ఆన్ చేసినప్పుడు, స్వైప్ ఆపినప్పుడు పేజీ స్వయంచాలకంగా మధ్యలోకి వస్తుంది. ఇది చదవడాన్ని సులభతరం చేస్తుంది, కానీ కొంచెం తక్కువ సునాయాసంగా అనిపించవచ్చు.\n\nమీరు పేజీ అలైన్‌మెంట్‌ను ఎనేబుల్ చేయాలనుకుంటున్నారా?</string>
+
+    <string name="direction_horizontally">క్షితిజ సమాంతరంగా</string>
+    <string name="direction_up_or_down">పైకి లేదా క్రిందికి</string>
+
+</resources>

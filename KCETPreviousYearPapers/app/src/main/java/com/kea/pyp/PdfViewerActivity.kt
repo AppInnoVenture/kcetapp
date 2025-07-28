@@ -168,8 +168,8 @@ class PdfViewerActivity : BaseActivity() {
                 }
 
                 try {
-                    pdfFileName = prefix.substring(0, 3) + ".pdf"
-                    
+                      // some private codes are removed, currently it shows only simplified version 
+    
                     openPdf()
                 } catch (e: Exception) {
                     Toast.makeText(this, R.string.errr, Toast.LENGTH_SHORT).show()
@@ -250,7 +250,6 @@ class PdfViewerActivity : BaseActivity() {
                                 if (state.file.length() > 0) {
                                     invalidateOptionsMenu()
                                     openPdf()
-                                    basePreferences.edit { putBoolean("dwd", false) }
                                     Toast.makeText(this@PdfViewerActivity, R.string.dwdComp, Toast.LENGTH_SHORT).show()
                                 } else {
                                     state.file.delete()
@@ -351,11 +350,7 @@ class PdfViewerActivity : BaseActivity() {
         onBackPressedDispatcher.addCallback(this) {
         if (viewModel.pdfState.value is PdfState.Downloading) {
             viewModel.downloadJob?.cancel()
-            CoroutineScope(Dispatchers.IO).launch {
-                delay(500)
-                if (pdfFile.exists()) pdfFile.delete()
-            }
-         } else if (isFullScreen) {
+            } else if (isFullScreen) {
             toggleFullScreen()
             return@addCallback
         }
@@ -400,67 +395,15 @@ class PdfViewerActivity : BaseActivity() {
     private fun openPdf() {
         
         if (!pdfOpened) {
-            try {
-                when (diff[0]) {
-                    'n' -> {
-                        pdfView.fromAsset(pdfFilename).nightMode(isNight).fitEachPage(true)
+               pdfView.fromAsset(pdfFilename).nightMode(isNight).fitEachPage(true)
                             .password(REDACTED)
                             .swipeHorizontal(isSwipeHorizontal)
                             .spacing(spacing).scrollHandle(DefaultScrollHandle(this))
-                            .defaultPage(sharedPreferences.getInt(prefix, 0)).onLoad { nbPages ->
-                                totalPgPdf = nbPages
-                                if (curSlideshow) startSlideshow(slideInterval.toDouble())
-                                else if (curAutoScrolling) startAutoScroll()
-                            }.pageSnap(isPageSnap).pageFling(isPageFling).load()
+                            .load()
                         curPdf = prefix
                     }
 
-                    'p' -> {
-                        pdfView.fromFile(pdfFile).nightMode(isNight).fitEachPage(true).spacing(spacing)
-                            .scrollHandle(DefaultScrollHandle(this)).password(REDACTED)
-                            .swipeHorizontal(isSwipeHorizontal)
-                            .onError { throwable ->
-                                if (throwable is IOException) { pdfFile.delete()
-                                    Snackbar.make(binding.root, R.string.errdwd, Snackbar.LENGTH_LONG)
-                                        .setAction(R.string.snack_yes) {
-                                            if (isInternetAvailable())
-                                                viewModel.downloadPdf("$REDACTED$pdfFileName", pdfFile, basePreferences)
-                                            else
-                                                Toast.makeText(this, R.string.noNet, Toast.LENGTH_SHORT).show()
-                                        }.show()
-                                } else
-                                    Toast.makeText(this, R.string.errr, Toast.LENGTH_SHORT).show()
-                            }.defaultPage(sharedPreferences.getInt(pdfFileName, 0))
-                            .onLoad { nbPages ->
-                                totalPgPdf = nbPages
-                                if (curSlideshow) startSlideshow(slideInterval.toDouble())
-                                else if (curAutoScrolling) startAutoScroll()
-                            }.pageSnap(isPageSnap).pageFling(isPageFling).load()
-                        curPdf = pdfFileName
-                    }
-
-                    else -> {
-                        pdfView.fromAsset(pdfFilename).nightMode(isNight).spacing(spacing)
-                            .defaultPage(sharedPreferences.getInt(pdfFileName, 0))
-                            .swipeHorizontal(isSwipeHorizontal).pageSnap(isPageSnap).pageFling(isPageFling)
-                            .scrollHandle(DefaultScrollHandle(this)).onLoad { nbPages ->
-                                totalPgPdf = nbPages
-                                if (diff[0] == 'c') {
-                                    pdfView.zoomTo(4f); pdfView.midZoom = 6f; pdfView.maxZoom = 8f
-                                }
-                                if (curSlideshow) startSlideshow(slideInterval.toDouble())
-                                else if (curAutoScrolling) startAutoScroll()
-                            }.password(REDACTED).fitEachPage(true).load()
-                        curPdf = pdfFileName
-                    }
-                }
-                pdfView.setBackgroundColor(if (spacing != 0) "#2C1D20".toColorInt() else if (isNight) Color.BLACK else Color.WHITE)
-                binding.pdfContainer.setBackgroundColor(if (isNight) Color.BLACK else Color.WHITE)
-                pdfOpened = true
-            } catch (e: Exception) {
-                Toast.makeText(this, R.string.errr, Toast.LENGTH_LONG).show()
-            }
-        }
+                    
         
         shouldHide = false
         // some private codes are removed, currently it shows only simplified version 
@@ -489,11 +432,7 @@ class PdfViewerActivity : BaseActivity() {
     override fun onSupportNavigateUp(): Boolean {
         if (viewModel.pdfState.value is PdfState.Downloading) {
             viewModel.downloadJob?.cancel()
-            CoroutineScope(Dispatchers.IO).launch {
-                delay(500)
-                if (pdfFile.exists()) pdfFile.delete()
             }
-        }
         finish()
         return true
     }

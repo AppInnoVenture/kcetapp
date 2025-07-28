@@ -43,12 +43,7 @@ class PdfViewerViewModel : ViewModel() {
         }
 
         _pdfState.value = PdfState.Downloading
-        sharedPreferences.edit().apply {
-            putBoolean("dwd", true)
-            putString("dwdPdf", pdfFile.name)
-            apply()
-        }
-
+        
         downloadJob = viewModelScope.launch(Dispatchers.IO) {
             var inputStream: InputStream? = null
             var fileOutputStream: FileOutputStream? = null

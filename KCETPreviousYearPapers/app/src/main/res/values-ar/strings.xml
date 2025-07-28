@@ -1,0 +1,180 @@
+<resources>
+
+    <string name="nav_open">فتح قائمة التنقل</string>
+    <string name="nav_close">إغلاق قائمة التنقل</string>
+    <string name="nav_home">الصفحة الرئيسية</string>
+    <string name="nav_tg">انضم إلى مجموعة تيليجرام الخاصة بنا</string>
+    <string name="nav_tg2">انضم إلى مجموعة تيليجرام 2 الخاصة بنا</string>
+    <string name="nav_pucqp">احصل على تطبيق أوراق أسئلة PUC على متجر Play</string>
+   <string name="nav_share">مشاركة التطبيق</string>
+    <string name="nav_more">المزيد من التطبيقات</string>
+    <string name="nav_dark">التبديل إلى الوضع الداكن</string>
+    <string name="nav_delete">حذف جميع الملفات التي تم تنزيلها</string>
+    <string name="nav_privacy">سياسة الخصوصية</string>
+    <string name="nav_exit">الخروج من التطبيق</string>
+    <string name="nav_2puc">احصل على تطبيق ملاحظات PUC الثاني على متجر Play</string>
+    <string name="nav_kan">تغيير اللغة</string>
+    <string name="nav_contact">اتصل بنا / اقتراحات</string>
+    <string name="nav_light">التبديل إلى الوضع الفاتح</string>
+<string name="nav_1puc">احصل على تطبيق ملاحظات PUC الأول على متجر Play</string>
+    
+    <string name="qpdf">أنت بالفعل تشاهد ورقة الأسئلة</string>
+    <string name="apdf">أنت بالفعل تشاهد الإجابات الرئيسية</string>
+    <string name="waitt">الرجاء الانتظار حتى يكتمل التنزيل</string>
+    <string name="noNet">الرجاء تمكين الإنترنت لتنزيل المحتوى</string>
+    <string name="noNetRetry">الرجاء تمكين الإنترنت لتنزيل المحتوى والنقر على زر \u0027إعادة المحاولة\u0027</string>
+    <string name="errr">حدث خطأ، يرجى الإبلاغ عنه في مجموعة تيليجرام الخاصة بنا</string>
+    <string name="errdwd">فشل تحميل المحتوى. هل ترغب في تنزيله مرة أخرى؟</string>
+    <string name="noFiles">لا توجد ملفات تم تنزيلها متاحة للحذف</string>
+    <string name="dwding">جارٍ التنزيل الرجاء الانتظار</string>
+    <string name="dwdComp">اكتمل التنزيل</string>
+    <string name="dwdCancel">تم إلغاء التنزيل</string>
+ <string name="lanShortcutToast">انقر على زر "إضافة" لإنشاء اختصار على الشاشة الرئيسية</string>
+    <string name="exitToast">كل التوفيق في امتحاناتك!</string>
+
+    <string name="alertTitle">تأكيد الحذف</string>
+    <string name="alertMsg">حذف جميع الملفات التي تم تنزيلها؟</string>
+    <string name="alertLanMsg">حذف الملفات التي تم تنزيلها؟</string>
+    <string name="alertPositive">إلغاء</string>
+    <string name="alertNegative">حذف</string>
+    <string name="alertCancel">تم إلغاء عملية الحذف</string>
+    <string name="alertDelete">تم الحذف بنجاح</string>
+    <string name="alertRestore">تم الاستعادة بنجاح</string>
+
+    <string name="tab_qp">أوراق الأسئلة</string>
+      <string name="tab_up">تحديثات KCET</string>
+<string name="tab_cutoff">الحد الأدنى</string>
+    <string name="tab_notes">ملاحظات</string>
+    <string name="prcNote">ملاحظة: الامتحان العملي ينطبق فقط على المرشحين المؤهلين للمطالبة بحصة الزراعة.\nالحد الأدنى للعلامات المطلوبة للنجاح هو 100 من 200 (50%).</string>
+    <string name="KanNote">ملاحظة: امتحان لغة الكانادا مخصص فقط لمرشحي هورانادو وغادينادو الكاناديين (شروط الأهلية c و d).\nالحد الأدنى للعلامات المطلوبة للنجاح هو 12 من 50.</string>
+    <string name="head_notes">ملاحظات المراجعة</string>
+    <string name="head_sol">ورقة الأسئلة مع الحلول</string>
+    
+    <string name="btn_qp">ورقة الأسئلة</string>
+    <string name="btn_ans">الإجابات الرئيسية</string>
+    
+<string name="btn_spl">وضع تقسيم الشاشة</string>
+
+    <string name="lan_shortcut">إنشاء اختصار</string>
+    <string name="lan_delete">حذف الملفات التي تم تنزيلها</string>
+
+    <string name="snack_retry">إعادة المحاولة</string>
+    <string name="snack_undo">تراجع</string>
+    <string name="snack_yes">نعم</string>
+
+<string name="already_latest_updates">أنت تشاهد بالفعل آخر التحديثات</string>
+<string name="refresh_successful">تم التحديث بنجاح</string>
+<string name="error_no_internet_refresh">الرجاء تمكين الإنترنت للتحديث</string>
+<string name="opening_browser_chooser">"سيتم فتح هذا الرابط في متصفح الويب الافتراضي لجهازك"</string>
+<string name="last_updated">آخر تحديث: %1$s</string>
+
+<string name="phy">الفيزياء</string>
+    <string name="che">الكيمياء</string>
+    <string name="bio">البيولوجيا</string>
+    <string name="mat">الرياضيات</string>
+    <string name="kan">الكانادا</string>
+    <string name="vetno">الزراعة/البيطرة العملية</string>
+    <string name="mbbs">بكالوريوس الطب والجراحة</string>
+    <string name="engg">الهندسة</string>
+    <string name="vet">البيطرة</string>
+    <string name="agri">الزراعة</string>
+    <string name="bds">طب الأسنان</string>
+    <string name="ayu">آيوش</string>
+    <string name="phar">الصيدلة</string>
+    <string name="arch">الهندسة المعمارية</string>
+    <string name="bnys">بكالوريوس الطب الطبيعي واليوغا</string>
+    <string name="nurs">التمريض</string>
+    <string name="ahs">بكالوريوس العلوم - العلوم الصحية المساعدة</string>
+    <string name="up_kcet">تحديث KCET 2025</string>
+    <string name="up_prac">تحديث امتحان KCET 2025 العملي</string>
+    <string name="up_info">نشرة معلومات KCET 2025</string>
+    <string name="up_rank">معايير تحديد رتبة KCET</string>
+    <string name="up_info_pdf">info.pdf</string>
+    <string name="up_kcet_pdf">kcet.pdf</string>
+    <string name="up_prac_pdf">prac.pdf</string>
+    <string name="up_rank_pdf">rank.pdf</string>
+
+    <string name="thankk">شكرًا لك</string>
+    <string name="donationn">يستغرق جمع الموارد وإنشاء التطبيق أيامًا. تبرعك الصغير (حتى ١٠ روبيات) يساعدنا في تغطية تكاليف الخادم. إذا ساعدك هذا التطبيق، فكر في التبرع بأي مبلغ تريده.\n\nشكرًا مقدمًا لدعمك!</string>
+
+
+    <string name="menu_go_to_first_page">انتقل إلى الصفحة الأولى</string>
+    <string name="menu_go_to_last_page">انتقل إلى الصفحة الأخيرة</string>
+    <string name="menu_jump_to_page">انتقل إلى صفحة</string>
+    <string name="menu_toggle_auto_scroll">التمرير التلقائي</string>
+    <string name="menu_toggle_slideshow_start">بدء عرض الشرائح</string>
+    <string name="menu_toggle_slideshow_stop">إيقاف عرض الشرائح</string>
+    <string name="menu_toggle_night_mode_to_light">التبديل إلى الوضع الفاتح</string>
+    <string name="menu_toggle_night_mode_to_dark">التبديل إلى الوضع الداكن</string>
+    <string name="menu_toggle_fullscreen">وضع ملء الشاشة</string>
+    <string name="menu_share_screenshot">مشاركة سكرين شوت</string>
+    <string name="menu_zoom_to">تكبير إلى</string>
+    <string name="menu_toggle_rotation_lock_lock">قفل تدوير الشاشة</string>
+    <string name="menu_toggle_rotation_lock_unlock">إلغاء قفل تدوير الشاشة</string>
+    <string name="menu_rotate_clockwise">تدوير باتجاه عقارب الساعة</string>
+    <string name="menu_rotate_anticlockwise">تدوير عكس اتجاه عقارب الساعة</string>
+    <string name="menu_toggle_volume_buttons_enable">تمكين تمرير مفتاح الصوت</string>
+    <string name="menu_toggle_volume_buttons_disable">تعطيل تمرير مفتاح الصوت</string>
+    <string name="menu_swipe_horizontal_to_vertical">اسحب عموديا</string>
+    <string name="menu_swipe_horizontal_to_horizontal">اسحب أفقيا</string>
+    <string name="menu_toggle_spacing_add">إضافة تباعد</string>
+    <string name="menu_toggle_spacing_remove">إزالة تباعد</string>
+    <string name="menu_page_fling">تمرير سريع للصفحة</string>
+    <string name="menu_page_snap">محاذاة الصفحة</string>
+    <string name="menu_exit">الخروج من التطبيق</string>
+
+    <string name="toast_auto_scroll_layout_closed">تم إغلاق تخطيط التمرير التلقائي</string>
+    <string name="toast_rotated_clockwise">تم التدوير باتجاه عقارب الساعة</string>
+    <string name="toast_rotated_anticlockwise">تم التدوير عكس اتجاه عقارب الساعة</string>
+    <string name="toast_locked_screen_rotation">تم قفل تدوير الشاشة</string>
+    <string name="toast_unlocked_screen_rotation">تم إلغاء قفل تدوير الشاشة</string>
+    <string name="toast_volume_button_scroll_enabled_state">تمرير زر الصوت %1$s</string>
+    <string name="state_enabled">ممكّن</string>
+    <string name="state_disabled">معطّل</string>
+    <string name="toast_already_on_last_page">أنت بالفعل في الصفحة الأخيرة</string>
+    <string name="toast_navigated_to_last_page">تم الانتقال إلى الصفحة الأخيرة</string>
+    <string name="toast_already_on_first_page">أنت بالفعل في الصفحة الأولى</string>
+    <string name="toast_navigated_to_first_page">تم الانتقال إلى الصفحة الأولى</string>
+    <string name="toast_swipe_direction_enabled">تم تمكين السحب %1$s</string>
+    <string name="direction_horizontal">أفقي</string>
+    <string name="direction_vertical">عمودي</string>
+    <string name="toast_slideshow_stopped">تم إيقاف عرض الشرائح</string>
+    <string name="toast_added_spacing">تمت إضافة تباعد</string>
+    <string name="toast_removed_spacing">تمت إزالة تباعد</string>
+    <string name="toast_page_number_field_empty">لا يمكن أن يكون حقل رقم الصفحة فارغًا</string>
+    <string name="toast_already_viewing_page">أنت تشاهد الصفحة %1$d بالفعل!</string>
+    <string name="toast_navigated_to_page_number">تم الانتقال إلى الصفحة %1$d</string>
+    <string name="toast_page_number_must_be_between">يجب أن يكون رقم الصفحة بين 1 و %1$d</string>
+    <string name="toast_please_enter_valid_number">الرجاء إدخال رقم صالح</string>
+    <string name="toast_zoom_level_field_empty">لا يمكن أن يكون حقل مستوى التكبير فارغًا</string>
+    <string name="toast_zoom_level_already_at">مستوى التكبير بالفعل %1$d%%!</string>
+    <string name="toast_zoomed_to_percent">تم التكبير إلى %1$d%%</string>
+    <string name="toast_zoom_level_must_be_between">يجب أن يكون مستوى التكبير بين 50 و 1000%</string>
+    <string name="toast_slideshow_started">بدأ عرض الشرائح</string>
+    <string name="toast_duration_must_be_greater_than_zero">يجب أن تكون المدة أكبر من صفر</string>
+    <string name="toast_reached_last_page">وصلت إلى الصفحة الأخيرة</string>
+    <string name="toast_page_swipe_enabled">تم تمكين السحب السريع للصفحة</string>
+    <string name="toast_page_swipe_disabled">تم تعطيل السحب السريع للصفحة</string>
+    <string name="toast_page_alignment_enabled">تم تمكين محاذاة الصفحة</string>
+    <string name="toast_page_alignment_disabled">تم تعطيل محاذاة الصفحة</string>
+    <string name="toast_direction_reversed">تم عكس الاتجاه</string>
+    <string name="toast_preparing_screenshot">جارٍ إعداد سكرين شوت</string>
+
+    <string name="dialog_title_enter_page_number">أدخل رقم الصفحة:</string>
+    <string name="dialog_button_ok">موافق</string>
+    <string name="dialog_button_cancel">إلغاء</string>
+    <string name="dialog_title_enter_zoom_level">أدخل مستوى التكبير (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">أدخل مدة عرض الشرائح (بالثواني)</string>
+    <string name="dialog_button_start">بدء</string>
+    <string name="dialog_title_enable_fast_page_swipe">تمكين السحب السريع للصفحة؟</string>
+    <string name="dialog_button_enable">تمكين</string>
+    <string name="dialog_button_disable">تعطيل</string>
+    <string name="dialog_title_enable_page_alignment">تمكين محاذاة الصفحة؟</string>
+
+    <string name="dialog_message_fast_page_swipe">السحب السريع للصفحة يتيح لك تقليب الصفحات بسرعة بالسحب %1$s، مثل تقليب صفحات كتاب. عند تفعيله، ينقلك سحب واحد إلى الصفحة التالية أو السابقة. هذا يجعل التنقل أسرع، لكنه قد يؤثر على إجراءات السحب الأخرى.\n\nهل تريد تفعيل السحب السريع للصفحة؟</string>
+    <string name="dialog_message_page_alignment">محاذاة الصفحة تجعل كل صفحة متمركزة تمامًا بعد السحب %1$s. عند تفعيلها، تستقر الصفحة تلقائيًا في المنتصف عند توقف السحب. هذا يسهل القراءة، لكنه قد يبدو أقل سلاسة.\n\nهل تريد تفعيل محاذاة الصفحة؟</string>
+
+    <string name="direction_horizontally">أفقيا</string>
+    <string name="direction_up_or_down">أعلى أو أسفل</string>
+
+</resources>

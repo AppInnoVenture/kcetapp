@@ -7,18 +7,16 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.signature.ObjectKey
-import com.puc.pyp.databinding.ItemViewBinding
+import com.kea.pyp.databinding.ItemViewBinding
 
 class ItemAdapter(private val items: List<Item>, private val itemClickListener: (Item)-> Unit) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
 
     inner class ItemViewHolder(private val binding: ItemViewBinding) : ViewHolder(binding.root) {
         fun bind(item: Item) {
-            Glide.with(binding.imageview.context).load(item.img)
-                .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
-                .signature(ObjectKey("3.5"))
-                .into(binding.imageview)
+            Glide.with(binding.root.context).load(item.img)
+                 .into(binding.imageview)
             binding.descriptionTextView.text = item.description
-            binding.root.setOnClickListener{
+            binding.root.setOnClickListener {
                 itemClickListener(item)
             }
         }
